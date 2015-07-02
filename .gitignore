@@ -1,5 +1,14 @@
+# Ignore Jekyll generated files
+_site
+
+# Ignore junk files
 .DS_Store
-dist
-node_modules
+
+# Ignore webfonts until you find a better method
 *.woff
+
+# Ignore node_modules
+node_modules
+
+# Ingnore deployment setup until you find a better method
 s3_website.yml

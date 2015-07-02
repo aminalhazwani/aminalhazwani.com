@@ -1,0 +1,22 @@
+# Site settings
+title: Amin Al Hazwani, Designer
+description: I’m a twenty-something designer from Italy. I focus on web and interaction design with a strong passion for typography
+baseurl: ""
+url: "http://aminalhazwani.com"
+
+# Build settings
+markdown: kramdown
+
+# Exclude files and folders
+exclude: 
+  - gulp
+  - s3_website.yml
+  - README.md
+  - package.json
+  - Gemfile
+
+# Plugins
+assets:
+  css_compressor: sass
+  sources:
+    - _assets/css
