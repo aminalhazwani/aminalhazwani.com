@@ -1,5 +1,9 @@
 <header>
-  <h1>Amin Al Hazwani</h1>
-  <h2>I am a twenty-something designer and wannabe developer from Italy.</h2>
-  <h2>I focus on web and interaction design with a genuine passion for typography.</h2>
+  <h1><a href="/">Amin Al Hazwani</a></h1>
+  <nav>
+    <a {% if page.url contains 'writing' %}class="active"{% endif %} href="/writing">Writing</a>
+    <a {% if page.url contains 'library' %}class="active"{% endif %} href="/library">Library</a>
+    <a {% if page.url contains 'pictures' %}class="active"{% endif %} href="/pictures">Pictures</a>
+    <a {% if page.url contains 'about' %}class="active"{% endif %} href="/about">About</a>
+  </nav>
 </header>
