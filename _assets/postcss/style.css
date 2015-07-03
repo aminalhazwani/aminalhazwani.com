@@ -1,3 +1,12 @@
+/*
+ * Variables
+ */
+:root {
+  --grey: #999;
+  --grey-dark: #555;
+  --black: #222;
+}
+
 @custom-media --md (width >= 600px);
 
 /*
@@ -6,8 +15,7 @@
 body {
   margin: 0px;
   padding: 1.44rem;
-  max-width: 440px;
-  color: #222;
+  color: var(--black);
 }
 
 @media (--md) {
@@ -27,7 +35,7 @@ body {
  */
 @font-face {
   font-family: 'NeueHaasUnicaPro-Light';
-  src: url('static/webfonts/2E4340_0_0.woff') format('woff');
+  src: url('../../static/webfonts/2E4340_0_0.woff') format('woff');
 }
 
 body {
@@ -40,7 +48,7 @@ h1, h2 {
 }
 
 h1 {
-  margin: 0 0 2.88rem 0;
+  margin: 0 0 .72rem 0;
   font-size: 1em;
 }
 
@@ -68,7 +76,29 @@ p > a {
  * Header
  */
 header {
-  margin-bottom: 1.44rem;
+  margin-bottom: 2.88rem;
+}
+
+@media (--md) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/*
+ * Navigation
+ */
+nav > a {
+  color: var(--grey);
+}
+
+nav > a.active {
+  color: var(--black);
+}
+
+nav > a:not(:first-child) {
+  margin-left: 1rem;
 }
 
 /*
@@ -83,9 +113,22 @@ main:last-child {
 }
 
 /*
+ * Writing
+ */
+.writing__title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.writing__title > time {
+  width: 80px;
+  text-align: right;
+}
+
+/*
  * Footer
  */
-footer > a {
+footer > a:not(:last-child) {
   margin-right: 1rem;
 }
 
