@@ -10,5 +10,8 @@ _site
 # Ignore node_modules
 node_modules
 
+# Ignore compiled CSS. Don't know if I'm going to regret it
+_assets/css/
+
 # Ingnore deployment setup until you find a better method
 s3_website.yml
