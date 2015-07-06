@@ -2,13 +2,11 @@
 layout: default
 ---
 
-<h1>Writing</h1>
-
 {% for post in site.posts %}
   {% if post.layout == 'writing' %}
-    <article class="writing__title">
+    <article class="writing__preview">
       <span><a href="{{ post.url }}">{{ post.title }}</a></span>
-      <time><a href="{{ post.url }}">{{ post.date | date: "%b %Y"}}</a></title>
-    </a>
+      <span class="writing__preview-date"><a href="{{ post.url }}">{{ post.date | date: "%b %Y"}}</a></span>
+    </article>
   {% endif %}
 {% endfor %}
