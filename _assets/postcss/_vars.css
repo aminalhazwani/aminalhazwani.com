@@ -1,6 +1,7 @@
 /*
  * Variables
  */
+
 :root {
   --white: #fff;
   --grey: #999;
@@ -23,11 +24,13 @@
 /*
  * Selectors
  */
+
 @custom-selector :--heading h1, h2, h3, .h1, .h2, .h3;
 
 /*
  * Media queries
  */
+ 
 @custom-media --bp-xs (width >= 420px);
 @custom-media --bp-sm (width >= 744px);
 @custom-media --bp-md (width >= 966px);

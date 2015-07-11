@@ -19,6 +19,7 @@ img {
 /*
  * Typography
  */
+
 @font-face {
   font-family: 'NeueHaasUnicaPro-Light';
   src: url('../../static/webfonts/2E4340_0_0.woff') format('woff');
@@ -69,6 +70,11 @@ p > a {
   padding-bottom: 1px;
   border-bottom: 1px solid var(--black);
 }
+
+
+/*
+ * Media queries
+ */
 
 @media (--bp-sm) {
   body {
