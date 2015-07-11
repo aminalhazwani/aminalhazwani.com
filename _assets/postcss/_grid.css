@@ -3,7 +3,6 @@
  */
 
 .grid {
-  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   margin-right: -calc(var(--space) / 2);
@@ -11,7 +10,6 @@
 }
 
 [class*="grid_col-"] {
-  box-sizing: border-box;
   margin: 0 auto var(--space) auto;
   padding-right: calc(var(--space) / 2);
   padding-left: calc(var(--space) / 2);

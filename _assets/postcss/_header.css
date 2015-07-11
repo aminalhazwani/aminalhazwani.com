@@ -36,7 +36,7 @@
   margin: 0 auto -var(--space) auto;
   padding: var(--space) 0;
   width: 100%;
-  max-width: 768px;
+  max-width: 1080px;
 }
 
 .site_title {

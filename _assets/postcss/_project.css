@@ -3,11 +3,9 @@
  */
 
 .project {
-  max-width: 768px;
-}
-
-.project_main {
+  margin: 0 auto;
   padding: 50px 0;
+  max-width: 1080px;
 }
 
 .project_inner {
@@ -90,7 +88,10 @@
 /* Project media queries */
 
 @media (--bp-sm) {
+  .project {
+    padding-top: 100px;
+  }
   .project_header-inner, .project_section-inner {
-    max-width: 534px;
+    max-width: 638px;
   }
 }
