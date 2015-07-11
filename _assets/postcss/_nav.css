@@ -13,7 +13,8 @@
 }
 
 .nav_item-active {
-  border-bottom: 1px solid var(--white);
+  padding-bottom: 1px;
+  border-bottom: 1px solid var(--black);
 }
 
 .nav_item:not(:first-child) {
