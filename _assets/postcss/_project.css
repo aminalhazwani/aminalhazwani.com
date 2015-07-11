@@ -1,0 +1,96 @@
+/*
+ * Project page
+ */
+
+.project {
+  max-width: 768px;
+}
+
+.project_main {
+  padding: 50px 0;
+}
+
+.project_inner {
+  overflow: hidden;
+}
+
+
+/* Project header and section */
+
+.project_header, .project_section {
+  padding: 0 var(--space);
+}
+
+.project_header-inner, .project_section-inner {
+  margin: 0 auto;
+  max-width: 446px;
+}
+
+
+/* Project header content */
+
+.project_title {
+  line-height: 1.6;
+}
+
+.project_intro {
+  margin-bottom: var(--space);
+  color: var(--grey);
+}
+
+
+/* Project section with floated image */
+
+.project_section-float > .project_section-inner {
+  overflow: hidden;
+  padding: 0 var(--space);
+  margin-bottom: var(--space)*2;
+  max-width: 100%;
+}
+
+.project_image {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.project_image-left {
+  float: left;
+  padding-right: var(--space);
+  width: 40%;
+}
+
+.project_image-left > figcaption{
+  margin-left: 0;
+}
+
+
+/* Project blockquote */
+
+.project_blockquote {
+  margin: 0 0 var(--space) 0;
+  color: var(--grey);
+  line-height: 1.5;
+}
+
+.project_blockquote-right, .project_blockquote-left {
+  width: 40%;
+}
+
+.project_blockquote-right {
+  float: right;
+  padding-left: var(--space);
+}
+
+.project_blockquote-left {
+  float: left;
+  padding-right: var(--space);
+}
+
+
+/* Project media queries */
+
+@media (--bp-sm) {
+  .project_header-inner, .project_section-inner {
+    max-width: 534px;
+  }
+}

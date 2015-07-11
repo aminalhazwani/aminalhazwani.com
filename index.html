@@ -2,16 +2,18 @@
 layout: default
 ---
 
-{% for post in site.posts reversed %}
-  {% if post.layout == 'project' %}
-    <article class="case {{ post.background }}">
-      <div class="case_inner">
-        <h3 class="case_title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <p class="case_text">{{ post.description }}</p>
-        <a href="{{ post.url }}">
-          <img class="case_image" src="{{ post.cover }}" alt="{{ post.title }}">
-        </a>
-      </div>
-    </article>
-  {% endif %}
-{% endfor %}
+<main>
+  {% for post in site.posts reversed %}
+    {% if post.layout == 'project' %}
+      <article class="case {{ post.background }}">
+        <div class="case_inner">
+          <h2 class="case_title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <p class="case_text">{{ post.description }}</p>
+          <a href="{{ post.url }}">
+            <img class="case_image" src="{{ post.cover }}" alt="{{ post.title }}">
+          </a>
+        </div>
+      </article>
+    {% endif %}
+  {% endfor %}
+<main>

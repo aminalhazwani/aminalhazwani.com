@@ -1,0 +1,27 @@
+/*
+ * Navigation
+ */
+ 
+.site_nav {
+  display: inline-block;
+  margin-right: var(--space);
+  text-align: right;
+}
+
+.nav_item-white {
+  color: var(--white);
+}
+
+.nav_item-active {
+  border-bottom: 1px solid var(--white);
+}
+
+.nav_item:not(:first-child) {
+  margin-left: var(--space);
+}
+
+@media (--bp-xs) {
+  .site_nav {
+    display: block;
+  }
+}

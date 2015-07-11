@@ -1,0 +1,72 @@
+/*
+ * Base
+ */
+body {
+  color: var(--black);
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/*
+ * Typography
+ */
+@font-face {
+  font-family: 'NeueHaasUnicaPro-Light';
+  src: url('../../static/webfonts/2E4340_0_0.woff') format('woff');
+}
+
+body {
+  font-size: 100%;
+  font-family: 'NeueHaasUnicaPro-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+:--heading {
+  margin: 0;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+h1, .h1,
+h2, .h2 {
+  line-height: 1;
+}
+
+h3, .h3 {
+  line-height: 1.5;
+}
+
+p {
+  margin: 0 0 50px 0;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+  line-height: 0;
+}
+
+figcaption {
+  margin: calc(var(--space) / 2) 0 0 var(--space);
+  line-height: 1.5;
+  color: var(--grey);
+}
+
+p > a {
+  padding-bottom: 1px;
+  border-bottom: 1px solid var(--black);
+}
+
+@media (--bp-sm) {
+  figcaption {
+    margin-left: 0;
+  }
+}

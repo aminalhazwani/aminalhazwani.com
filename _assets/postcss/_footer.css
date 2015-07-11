@@ -1,0 +1,19 @@
+/*
+ * Footer
+ */
+
+.site_footer {
+  padding: var(--space);
+}
+
+.site_footer-white {
+  background-color: var(--newsboy);
+}
+
+.site_footer > p {
+  margin: 0;
+}
+
+.site_footer-white > p {
+  color: var(--white);
+}
