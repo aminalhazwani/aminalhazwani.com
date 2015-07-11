@@ -8,13 +8,16 @@
   text-align: right;
 }
 
+.nav_item {
+  color: var(--grey);
+}
+
 .nav_item-white {
   color: var(--white);
 }
 
 .nav_item-active {
-  padding-bottom: 1px;
-  border-bottom: 1px solid var(--black);
+  color: var(--black);
 }
 
 .nav_item:not(:first-child) {
