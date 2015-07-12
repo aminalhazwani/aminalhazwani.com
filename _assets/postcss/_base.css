@@ -68,11 +68,14 @@ p > a {
  * Media queries
  */
 
+@media (--xs) {
+  figcaption {
+    margin-left: 0;
+  }
+}
+
 @media (--sm) {
   body {
     font-size: 18px;
-  }
-  figcaption {
-    margin-left: 0;
   }
 }

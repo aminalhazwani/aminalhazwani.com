@@ -23,7 +23,7 @@
 
 /* Media queries */
 
-@media (--sm) {
+@media (--xs) {
   .grid {
     flex-wrap: nowrap;
     margin: 0 auto;
@@ -87,11 +87,11 @@
   padding: 0;
 }
 
-.grid-full > [class*="grid_col-"]> figcaption {
+.grid-full > [class*="grid_col-"] > figcaption {
   margin-left: 30px;
 }
 
-@media (--sm) {
+@media (--xs) {
   .grid-full > [class*="grid_col-"] > figcaption {
     margin-left: var(--space);
   }
