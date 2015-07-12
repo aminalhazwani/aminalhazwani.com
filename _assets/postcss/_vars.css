@@ -3,21 +3,26 @@
  */
 
 :root {
+  /* Base colors */
   --white: #fff;
   --grey: #999;
   --grey-dark: #555;
   --black: #222;
 
+  /* Specific colors */
   --unibz: #007be4;
   --newsboy: #00008c;
   --tronko: #fd7056;
 
+  /* Blocks */
   --space: 20px;
-  --xs: 420px;
-  --sm: 744px;
-  --md: 966px;
-  --lg: 1024px;
-  --xl: 1280px;
+  --space-half: 10px;
+  --space-double: 40px;
+
+  /* Typography */
+  --font-family: 'NeueHaasUnicaPro-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --line-height: 1.6;
+  --base-font-size: 16px;
 }
 
 
@@ -27,12 +32,10 @@
 
 @custom-selector :--heading h1, h2, h3, .h1, .h2, .h3;
 
+
 /*
  * Media queries
  */
  
-@custom-media --bp-xs (width >= 420px);
-@custom-media --bp-sm (width >= 744px);
-@custom-media --bp-md (width >= 966px);
-@custom-media --bp-lg (width >= 1024px);
-@custom-media --bp-xl (width >= 1280px);
+@custom-media --xs (width >= 481px);
+@custom-media --sm (width >= 744px);

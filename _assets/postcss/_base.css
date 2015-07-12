@@ -2,7 +2,7 @@
  * Base
  */
 
- * {
+* {
   box-sizing: border-box;
 }
 
@@ -26,28 +26,20 @@ img {
 }
 
 body {
-  font-size: 16px;
-  font-family: 'NeueHaasUnicaPro-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: var(--base-font-size);
+  font-family: var(--font-family);
 }
 
 :--heading {
   margin: 0;
   font-weight: normal;
   font-size: 1em;
-}
-
-h1, .h1,
-h2, .h2 {
-  line-height: 1;
-}
-
-h3, .h3 {
-  line-height: 1.5;
+  line-height: var(--line-height);
 }
 
 p {
-  margin: 0 0 50px 0;
-  line-height: 1.6;
+  margin: 0 0 var(--space) 0;
+  line-height: var(--line-height);
 }
 
 a {
@@ -61,8 +53,8 @@ figure {
 }
 
 figcaption {
-  margin: calc(var(--space) / 2) 0 0 var(--space);
-  line-height: 1.5;
+  margin: var(--space-half) 0 0 var(--space);
+  line-height: var(--line-height);
   color: var(--grey);
 }
 
@@ -76,7 +68,7 @@ p > a {
  * Media queries
  */
 
-@media (--bp-sm) {
+@media (--sm) {
   body {
     font-size: 18px;
   }
