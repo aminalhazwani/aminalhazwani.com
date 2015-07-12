@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   color: var(--black);
   margin: 0 auto;
@@ -54,6 +58,7 @@ figure {
 
 figcaption {
   margin: var(--space-half) 0 0 var(--space);
+  font-size: 14px;
   line-height: var(--line-height);
   color: var(--grey);
 }
@@ -77,5 +82,8 @@ p > a {
 @media (--sm) {
   body {
     font-size: 18px;
+  }
+  figcaption {
+    font-size: 16px;
   }
 }
