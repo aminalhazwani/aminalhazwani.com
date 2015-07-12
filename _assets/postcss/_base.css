@@ -53,6 +53,7 @@ p {
 
 em {
   font-family: var(--font-italic);
+  font-style: normal;
 }
 
 a {
