@@ -36,7 +36,7 @@
 }
 
 .project_intro {
-  margin-bottom: var(--space);
+  margin-bottom: var(--space-double);
   color: var(--grey);
 }
 
@@ -58,12 +58,11 @@
 
 .project_image {
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0 auto var(--space) 0;
 }
 
 .project_image > figcaption {
   margin-left: 0;
-  margin-bottom: var(--space);
 }
 
 @media (--xs) {

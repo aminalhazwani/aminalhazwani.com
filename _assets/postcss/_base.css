@@ -29,6 +29,7 @@ img {
   src: url('../../static/webfonts/2E4340_0_0.woff') format('woff');
 }
 
+
 body {
   font-size: var(--base-font-size);
   font-family: var(--font-family);
@@ -41,9 +42,17 @@ body {
   line-height: var(--line-height);
 }
 
+h1, h3 {
+  font-family: var(--font-bold);
+}
+
 p {
   margin: 0 0 var(--space) 0;
   line-height: var(--line-height);
+}
+
+em {
+  font-family: var(--font-italic);
 }
 
 a {
@@ -68,6 +77,11 @@ p > a {
   border-bottom: 1px solid var(--black);
 }
 
+q, 
+blockquote {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
 
 /*
  * Media queries
@@ -86,4 +100,8 @@ p > a {
   figcaption {
     font-size: 16px;
   }
+}
+
+#mfPreviewBarShow {
+  display: none;
 }
