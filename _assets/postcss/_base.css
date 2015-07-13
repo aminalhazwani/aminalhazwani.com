@@ -15,10 +15,9 @@ body {
   margin: 0 auto;
 }
 
-img {
+img, video {
   max-width: 100%;
 }
-
 
 /*
  * Typography
@@ -51,6 +50,10 @@ p {
   line-height: var(--line-height);
 }
 
+ul > li {
+  line-height: var(--line-height);
+}
+
 em {
   font-family: var(--font-italic);
   font-style: normal;
@@ -80,7 +83,7 @@ p > a {
 
 q, 
 blockquote {
-    quotes: "\201C" "\201D" "\2018" "\2019";
+  quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
 
