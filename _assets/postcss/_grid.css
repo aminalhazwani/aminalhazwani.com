@@ -13,7 +13,7 @@
 }
 
 .grid > [class*="grid_col-"]:last-child {
-  margin: 0 auto var(--space-double) auto;
+  margin: 0 auto var(--space-triple) auto;
 }
 
 [class*="grid_col-"] {

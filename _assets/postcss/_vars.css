@@ -18,6 +18,7 @@
   --space: 20px;
   --space-half: 10px;
   --space-double: 40px;
+  --space-triple: 60px;
 
   /* Typography */
   --font-family: 'NeueHaasUnicaPro-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -42,4 +43,5 @@
  */
  
 @custom-media --xs (width >= 481px);
-@custom-media --sm (width >= 744px);
+@custom-media --sm (width >= 728px);
+@custom-media --md (width >= 966px);
