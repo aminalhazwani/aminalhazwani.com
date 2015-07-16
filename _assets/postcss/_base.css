@@ -70,10 +70,11 @@ figure {
 }
 
 figcaption {
-  margin: var(--space-half) 0 0 var(--space);
+  margin: var(--space-half) 0 0 0;
   font-size: 14px;
   line-height: var(--line-height);
   color: var(--grey);
+  text-align: center;
 }
 
 p > a {
@@ -90,12 +91,6 @@ blockquote {
 /*
  * Media queries
  */
-
-@media (--xs) {
-  figcaption {
-    margin-left: 0;
-  }
-}
 
 @media (--sm) {
   body {
