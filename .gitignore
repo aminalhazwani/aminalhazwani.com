@@ -7,6 +7,9 @@ _site
 # Ignore webfonts until you find a better method
 *.woff
 
+# Ignore caches and logs
+Gemfile.lock
+
 # Ignore node_modules
 node_modules
 
