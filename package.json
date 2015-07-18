@@ -14,7 +14,9 @@
   "devDependencies": {
     "cssnext": "^1.6.0",
     "gulp": "^3.9.0",
+    "gulp-imageoptim": "^0.2.12",
     "gulp-postcss": "^5.1.8",
+    "gulp-shell": "^0.4.2",
     "require-dir": "^0.3.0"
   }
 }
