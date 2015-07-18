@@ -78,6 +78,10 @@
   .grid_col-1 {
     max-width: 8.33333%;
   }
+
+  [class*="grid_col-"]:not(:last-of-type) {
+    margin-bottom: 0;
+  }
 }
 
 
