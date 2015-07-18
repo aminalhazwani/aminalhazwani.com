@@ -44,4 +44,4 @@
  
 @custom-media --xs (width >= 481px);
 @custom-media --sm (width >= 728px);
-@custom-media --md (width >= 966px);
+@custom-media --md (width >= 976px);

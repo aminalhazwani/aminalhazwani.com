@@ -94,6 +94,15 @@ blockquote {
 
 @media (--sm) {
   body {
+    font-size: 17px;
+  }
+  figcaption {
+    font-size: 15px;
+  }
+}
+
+@media (--md) {
+  body {
     font-size: 18px;
   }
   figcaption {
