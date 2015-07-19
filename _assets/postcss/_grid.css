@@ -87,10 +87,6 @@
 
 /* Grid full */
 
-.grid-full {
-  margin: 0 0 var(--space-double) 0;
-}
-
 .grid-full, .grid-full > [class*="grid_col-"] {
   padding: 0;
 }
