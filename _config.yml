@@ -1,6 +1,6 @@
 # Site settings
-title: Amin Al Hazwani, Designer
-description: I’m a twenty-something designer from Italy. I focus on web and interaction design with a strong passion for typography
+title: "Amin Al Hazwani, Designer"
+description: "Design & CSS."
 baseurl: ""
 url: "http://aminalhazwani.com"
 permalink: "/:categories/:title/"
@@ -15,6 +15,7 @@ exclude:
   - readme.md
   - package.json
   - Gemfile
+  - Gemfile.lock
   - node_modules
   - images
 
