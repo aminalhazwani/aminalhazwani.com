@@ -1,0 +1,19 @@
+/* 
+ * Max widths 
+ */
+
+.mw120 { max-width: 120%; }
+.mw90  { max-width: 90%; }
+.mw80  { max-width: 80%; }
+.mw70  { max-width: 70%; }
+.mw60  { max-width: 70%; }
+.mw50  { max-width: 50% }
+.mw40  { max-width: 40% }
+
+@media (--breakpoint-sm) {
+  .mw60-sm { max-width: 60%; }
+}
+
+@media (--breakpoint-md) {
+  .mw40-md { max-width: 40%; }
+}

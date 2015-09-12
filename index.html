@@ -2,18 +2,93 @@
 layout: default
 ---
 
-<main>
-  {% for post in site.posts reversed %}
-    {% if post.layout == 'project' %}
-      <article class="case {{ post.background }}">
-        <div class="case_inner">
-          <h2 class="case_title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          <p class="case_text">{{ post.description }}</p>
-          <a href="{{ post.url }}">
-            <img class="case_image" src="{{ post.cover }}" alt="{{ post.title }}">
-          </a>
+<main class="oh">
+
+  <section class="ptl ptxl-sm ptxxl-md bg-blue white">
+    <div class="pbxl center measure">
+      <div class="tl">
+        <img class="mw90 rotate-10" src="../static/images/unibz-0.jpg" alt="Unibz Homepage">
+      </div>
+      <div class="mt-m tr">
+        <img class="mw80 rotate10" src="../static/images/unibz-1.jpg" alt="Unibz Natech Homepage">
+      </div>
+      <div class="pam mtm mw60-sm mw40-md">
+        <h2 class="mtn mbxs f4 light">Unibz</h2>
+        <p class="man lh-title">
+          The whole project is pattern-driven and designed in the open. Still in progress. <a class="white" href="http://unibz.github.io/">Check it</a> on GitHub.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ptl bg-red white">
+    <div class="mt-xl pbxl center measure">
+      <div class="tl">
+        <img class="mw60 rotate-10" src="../static/images/tronko-movie.png" alt="Tronko">
+      </div>
+      <div class="mt-xl mt-xxl-md tr">
+        <img class="mw50 rotate10" src="../static/images/tronko-single-chat.png" alt="Tronko">
+      </div>
+      <div class="tc">
+        <img class="mw70 rotate-30" src="../static/images/tronko-all-chats.png" alt="Tronko">
+      </div>
+      <div class="pam mtm mw60-sm mw40-md">
+        <h2 class="mtn mbxs f4 light">Tronko</h2>
+        <p class="man lh-title">
+          Movie recommendations from the one source you trust – your friends. View <a class="white" href="https://dribbble.com/aminalhazwani/projects/300872-Tronko">sneak peaks</a> on Dribbble. Or download the app from <a class="white" href="#">App Store</a> or <a class="white" href="#">Google Play</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ptl bg-orange white">
+    <div class="mt-xl pbxl center measure">
+      <div class="tc">
+        <img class="mw120 rotate-10" src="../static/images/spatial.png" alt="Tronko">
+      </div>
+      <div class="pam mtm mw60-sm mw40-md">
+        <h2 class="mtn mbxs f4 light">Spatial Design</h2>
+        <p class="man lh-title">Lorem ipsum simet sur</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ptl bg-darkblue white">
+    <div class="mt-xl pbl center measure">
+      <div class="tr">
+        <img class="mw50 rotate15" src="../static/images/newsboy-slide.png" alt="Tronko">
+      </div>
+      <div class="mt-xl mt-xxl-md tl">
+        <img class="mw70 rotate-10" src="../static/images/newsboy-timeline.png" alt="Tronko">
+      </div>
+      <div class="pam mtl mw60-sm mw40-md">
+        <h2 class="mtn mbxs f4 light">Newsboy</h2>
+        <p class="man lh-title">
+          Short news-trailer editing made easy for journalist. <a class="white" href="https://medium.com/@aminalhazwani/newsboy-108f098b9e35">Read case study</a> on Medium.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="bg-black white">
+    <div class="center measure">
+      <div class="pvl phm mw60-sm">
+        <div class="mbl">
+          <p class="lh-title f3">
+            I design and build things on and off the web. I have a strong passion for typography and animations (if they provide meaning with motion). When I am not busy watching tv-series I enjoy writing about design. I currently live in beatiful Berlin. In my past life I was a graphic designer and some of my works have been publish here and there.
+          </p>
+          <p class="lh-copy f4">
+            The design of this website was inspired by the article "The Web’s Grain" written by Frank Chimero. The typography is set in Neue Hass Unica. The whole thingy is build with Jekyll and hosted on Amazon S3. The CSS is written following Tachyons specs (I am not fully convicend of this approach but lets give it some time). I do not own the story "What is Code?": The texts and the pictures placed in Newsboy are property of Bloomberg Business.
+          </p>
         </div>
-      </article>
-    {% endif %}
-  {% endfor %}
-<main>
+        <div>
+          <a class="db pam mbm white no-underline bw1 bs-solid br4" href="#">Dribble</a>
+          <a class="db pam mbm white no-underline bw1 bs-solid br4" href="#">GitHub</a>
+          <a class="db pam mbm white no-underline bw1 bs-solid br4" href="#">Instagram</a>
+          <a class="db pam mbm white no-underline bw1 bs-solid br4" href="#">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>

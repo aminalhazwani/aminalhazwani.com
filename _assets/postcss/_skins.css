@@ -1,0 +1,30 @@
+/*
+ * Spacing
+ */
+
+ /* Background colors */
+.bg-blue {
+  background-color: var(--unibz);
+}
+
+.bg-red {
+  background-color: var(--tronko);
+}
+
+.bg-orange {
+  background-color: var(--spatial);
+}
+
+.bg-darkblue {
+  background-color: var(--newsboy);
+}
+
+.bg-black {
+  background-color: var(--black); 
+}
+
+
+ /* Text colors */
+.white {
+  color: var(--white);
+}

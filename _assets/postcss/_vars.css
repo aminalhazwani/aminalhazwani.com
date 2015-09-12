@@ -1,47 +1,20 @@
 /*
  * Variables
  */
-
+ 
 :root {
   /* Base colors */
   --white: #fff;
-  --grey: #999;
-  --grey-dark: #555;
-  --black: #222;
+  --black: #111;
 
   /* Specific colors */
   --unibz: #007be4;
   --newsboy: #00008c;
   --tronko: #fd7056;
-
-  /* Blocks */
-  --space: 20px;
-  --space-half: 10px;
-  --space-double: 40px;
-  --space-triple: 60px;
+  --spatial: #ffb700;
 
   /* Typography */
   --font-family: 'NeueHaasUnicaPro-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --line-height: 1.6;
   --base-font-size: 16px;
-
-  /* Temp Typography */
-  --font-italic: 'Neue Haas Unica Pro Light Italic';
-  --font-bold: 'Neue Haas Unica Pro Medium';
 }
-
-
-/*
- * Selectors
- */
-
-@custom-selector :--heading h1, h2, h3, .h1, .h2, .h3;
-
-
-/*
- * Media queries
- */
- 
-@custom-media --xs (width >= 481px);
-@custom-media --sm (width >= 728px);
-@custom-media --md (width >= 976px);

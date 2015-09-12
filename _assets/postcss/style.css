@@ -1,30 +1,19 @@
-/*
- * Base
- */
-@import '_vars';
-@import '_base';
-@import '_grid';
+@import url('_vars.css');
+@import url('_reset.css');
+@import url('_media-queries');
 
-
-/*
- * Modules
- */
-
-@import '_header';
-@import '_nav';
-@import '_footer';
-
-
-/*
- * Pages
- */
-
-@import '_home';
-@import '_project';
-
-
-/*
- * Utilities
- */
-
-@import '_utility';
+@import url('_borders');
+@import url('_display');
+@import url('_font-family.css');
+@import url('_font-size');
+@import url('_font-weight');
+@import url('_line-height');
+@import url('_max-widths');
+@import url('_overflow');
+@import url('_skins');
+@import url('_spacing');
+@import url('_text-align');
+@import url('_text-decoration');
+@import url('_transform');
+@import url('_typography');
+@import url('_utilities');

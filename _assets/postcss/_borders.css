@@ -1,0 +1,8 @@
+/* 
+ * Border radius 
+ */
+
+ .bw1 { border-width: 1px; }
+ .bs-solid {  border-style: solid; }
+ .br4 { border-radius: 4px; }
+ .b-white { color: var(--white); }

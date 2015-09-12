@@ -1,0 +1,9 @@
+/* 
+ * Media queries 
+ */
+
+
+@custom-media --breakpoint-sm screen and (min-width: 30em);
+@custom-media --breakpoint-md screen and (min-width: 60em);
+/*@custom-media --breakpoint-lg screen and (min-width: 60em);
+@custom-media --breakpoint-x-lg screen and (min-width: 120em);*/
