@@ -10,6 +10,7 @@
 
 .pvs  { padding-top: .5rem; padding-bottom: .5rem; }
 .pvl  { padding-top: 2rem; padding-bottom: 2rem; }
+.pvxl  { padding-top: 4rem; padding-bottom: 4rem; }
 .phm  { padding-left: 1rem; padding-right: 1rem; }
 
 @media (--breakpoint-sm) {
@@ -34,7 +35,9 @@
 .mbxs  { margin-bottom: .25rem; }
 .mbm   { margin-bottom: 1rem; }
 .mbl   { margin-bottom: 2rem; }
+.mbxl  { margin-bottom: 4rem; }
 
 @media (--breakpoint-md) {
+  .mt-xl-md  { margin-top: -4rem; }
   .mt-xxl-md { margin-top: -8rem; }
 }

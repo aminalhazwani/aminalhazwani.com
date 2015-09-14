@@ -16,4 +16,6 @@
 
 @media (--breakpoint-md) {
   .mw40-md { max-width: 40%; }
+  .mw50-md { max-width: 50%; }
+  .mw60-md { max-width: 60%; }
 }
