@@ -2,6 +2,7 @@
 @import url('_reset.css');
 @import url('_media-queries');
 
+@import url('_box-sizing');
 @import url('_borders');
 @import url('_display');
 @import url('_font-family.css');
