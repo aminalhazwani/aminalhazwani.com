@@ -1,8 +1,12 @@
-<header class="pam bg-blue">
-  <div class="flex flex-justify measure center"
+<header class="{% if page.url == '/index.html' %}bg-blue{% else %}bg-black{% endif %}">
+  <div class="flex flex-justify measure center pam">
     <h1 class="man f4 light">
-      <a class="mts white no-underline" href="/">Amin Al Hazwani</a>
+      <a class="db pvs white no-underline" href="/">Amin Al Hazwani</a>
     </h1>
-    <a class="pvs phm white no-underline bw1 bs-solid br4" href="#about">About</a>
+    {% if page.url == '/index.html' %}
+      <a class="pvs phm white no-underline bw1 bs-solid br4" href="/about">About</a>
+    {% else %}
+      <a class="pvs phm white no-underline bw1 bs-solid br4" href="/">Back</a>
+    {% endif %}
   </div>
 </header>
