@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'NeueHaasUnicaPro-Light';
-  src: url('../../static/webfonts/2E4340_0_0.woff') format('woff');
+  src: url('../static/webfonts/2E4340_0_0.woff') format('woff');
 }
 
 .sans {

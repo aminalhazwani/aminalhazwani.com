@@ -15,8 +15,16 @@
   background-color: var(--spatial);
 }
 
-.bg-darkblue {
+.bg-electricblue {
   background-color: var(--newsboy);
+}
+
+.bg-lightblue {
+  background-color: var(--giggle);
+}
+
+.bg-deepred {
+  background-color: var(--schnauze);
 }
 
 .bg-black {

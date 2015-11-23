@@ -12,7 +12,5 @@
 }
 
 @media (--breakpoint-md) {
-  .f1-md { font-size: 1.75rem; }
-  .f2-md { font-size: 1.5rem; }
-  .f3-md { font-size: 1.25rem; }
+  .f3-md { font-size: 1.2rem; }
 }

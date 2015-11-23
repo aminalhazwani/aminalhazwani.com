@@ -15,11 +15,35 @@
 .rotate15 {
   transform: rotate(15deg);
 }
- 
-.rotate-10 {
-  transform: rotate(-10deg);
+
+.rotate20 {
+  transform: rotate(20deg);
 }
 
-.rotate-30 {
-  transform: rotate(-30deg);
+.rotate30 {
+  transform: rotate(30deg);
+}
+
+.rotate330 {
+  transform: rotate(330deg);
+}
+
+.rotate335 {
+  transform: rotate(335deg);
+}
+
+.rotate340 {
+  transform: rotate(340deg);
+}
+
+.rotate345 {
+  transform: rotate(345deg);
+}
+
+.rotate350 {
+  transform: rotate(350deg);
+}
+
+.rotate355 {
+  transform: rotate(355deg);
 }

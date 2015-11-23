@@ -1,0 +1,7 @@
+/* 
+ * Widths 
+ */
+
+@media (--breakpoint-sm) {
+  .w80-sm { max-width: 80%; }
+}
