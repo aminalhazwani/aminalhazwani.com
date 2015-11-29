@@ -1,6 +1,6 @@
 # Site settings
 title: "Amin Al Hazwani, Designer"
-description: "Design & CSS."
+description: "My name is Amin Al Hazwani, and I'm a Berlin based product designer. I design apps and build websites. I have a strong passion for typography and I'm taking my first steps in user experience. I enjoy writing about design and I'm currently working on an article for A List Apart about animation consistency in user interfaces."
 baseurl: ""
 url: "http://aminalhazwani.com"
 permalink: "/:categories/:title/"
