@@ -2,33 +2,34 @@
  * Spacing
  */
 
-/* Padding */
+
+/* Padding all */
 .pam   { padding: 1rem; }
 
+/* Padding top */
 .ptl   { padding-top: 2rem; }
+@media (--breakpoint-sm) { .ptxl-sm { padding-top: 4rem; } }
+@media (--breakpoint-md) { .ptxxl-md { padding-top: 8rem; } }
 
+/* Padding bottom */
 .pbl   { padding-bottom: 2rem; }
 .pbxl  { padding-bottom: 4rem; }
 
+/* Padding vertical */
 .pvxs  { padding-top: .25rem; padding-bottom: .25rem; }
 .pvs   { padding-top: .5rem; padding-bottom: .5rem; }
 .pvl   { padding-top: 2rem; padding-bottom: 2rem; }
 .pvxl  { padding-top: 4rem; padding-bottom: 4rem; }
 
+/* Padding horizontal */
 .phs   { padding-left: .5rem; padding-right: .5rem; }
 .phm   { padding-left: 1rem; padding-right: 1rem; }
 
-@media (--breakpoint-sm) {
-  .ptxl-sm { padding-top: 4rem; }
-}
 
-@media (--breakpoint-md) {
-  .ptxxl-md { padding-top: 8rem; }
-}
-
-
-/* Margin */
+/* Margin all */
 .man     { margin: 0; }
+
+/* Margin top */
 .mtn     { margin-top: 0; }
 .mts     { margin-top: 0.5rem; }
 .mtm     { margin-top: 1rem; }
@@ -39,20 +40,18 @@
 .mt-l    { margin-top: -2rem; }
 .mt-xl   { margin-top: -4rem; }
 .mt-xxl  { margin-top: -8rem; }
+.mt-40   { margin-top: -40%; }
+@media (--breakpoint-sm) { .mt-xxxl-sm { margin-top: -12rem; } }
+@media (--breakpoint-md) { .mt-xl-md { margin-top: -4rem; } }
 
+/* Margin bottom */
 .mbn     { margin-bottom: 0; }
 .mbxs    { margin-bottom: .25rem; }
 .mbs     { margin-bottom: .5rem; }
 .mbm     { margin-bottom: 1rem; }
 .mbl     { margin-bottom: 2rem; }
 .mbxl    { margin-bottom: 4rem; }
+@media (--breakpoint-md) { .mbm-md { margin-bottom: 1rem; } }
 
+/* Margin left */
 .mlxl    { margin-left: 4rem; }
-
-@media (--breakpoint-sm) {
-  .mt-xxxl-sm { margin-top: -16rem; }
-}
-
-@media (--breakpoint-md) {
-  .mt-xl-md { margin-top: -4rem; }
-}

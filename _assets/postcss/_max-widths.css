@@ -2,6 +2,7 @@
  * Max widths 
  */
 
+.mw666 { max-width: 666px }
 .mw120 { max-width: 120%; }
 .mw100 { max-width: 100%; }
 .mw90  { max-width: 90%; }
@@ -9,32 +10,15 @@
 .mw70  { max-width: 70%; }
 .mw60  { max-width: 60%; }
 .mw50  { max-width: 50% }
+.mw45  { max-width: 45% }
 .mw40  { max-width: 40% }
-.mw30  { max-width: 30% }
-.mw20  { max-width: 20% }
 
 @media (--breakpoint-sm) {
   .mw60-sm { max-width: 60%; }
 }
 
 @media (--breakpoint-md) {
-  .mw20-md { max-width: 20%; }
-  .mw30-md { max-width: 30%; }
   .mw40-md { max-width: 40%; }
-  .mw50-md { max-width: 50%; }
   .mw60-md { max-width: 60%; }
-  .mw80-md { max-width: 80%; }
-}
-
-@media (--breakpoint-lg) {
-  .mw50-lg { max-width: 50%; }
-  .mw70-lg { max-width: 70%; }
-}
-
-@media (--breakpoint-xl) {
-  .mw40-xl { max-width: 40%; }
-}
-
-@media (--breakpoint-xxl) {
-  .mw30-xxl { max-width: 30%; }
+  .mw700-md { max-width: 700px; }
 }

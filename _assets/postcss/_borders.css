@@ -1,8 +1,13 @@
 /* 
- * Border radius 
+ * Borders 
  */
 
- .bw1 { border-width: 1px; }
- .bs-solid {  border-style: solid; }
- .br4 { border-radius: 4px; }
- .b-white { color: var(--white); }
+.bw1 { border-width: 1px; }
+
+.bs-solid {  border-style: solid; }
+
+.br2 { border-radius: 2px; }
+.br4 { border-radius: 4px; }
+@media (--breakpoint-md) { .br4-md { border-radius: 4px } }
+
+.b-white { color: var(--white); }
