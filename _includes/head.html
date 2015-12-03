@@ -1,12 +1,29 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="robots" content="noindex, nofollow">
   <title>{{ site.title }}</title>
+  <meta name="author" content="{{ site.title }}">
   <meta name="description" content="{{ site.description }}">
+  <meta name="keywords" content="design,app,web,html,css,development,product,designer">
+  <meta property="og:title" content="{{ site.title }}">
+  <!-- <meta property="og:image" content="1280x630px"> -->
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="{{ site.twitter }}">
+  <meta name="twitter:creator" content="{{ site.twitter }}">
+  <meta name="twitter:url" content="{{ site.url }}">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <!-- <meta name="twitter:image" content="280x150px < 1MB"> -->
+  
+  <link rel="canonical" href="{{ site.url }}">
+  <link rel="icon" type="image/png" href="../static/images/favicon.png">
+  <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
   <style>
     {{ 'style.css' | asset }}
   </style>
-  <link rel="icon" type="image/png" href="../static/images/favicon.png">
 </head>
