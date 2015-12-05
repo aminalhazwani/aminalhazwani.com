@@ -2,7 +2,7 @@
  * Max widths 
  */
 
-.mw666 { max-width: 666px }
+.mw666 { max-width: 666px; }
 .mw120 { max-width: 120%; }
 .mw100 { max-width: 100%; }
 .mw90  { max-width: 90%; }
