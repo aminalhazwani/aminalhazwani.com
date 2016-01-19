@@ -11,6 +11,10 @@
   background-color: var(--tronko);
 }
 
+.bg-darkred {
+  background-color: var(--alistapart);
+}
+
 .bg-electricblue {
   background-color: var(--newsboy);
 }

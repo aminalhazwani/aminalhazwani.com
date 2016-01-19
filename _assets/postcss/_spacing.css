@@ -51,6 +51,7 @@
 .mbm     { margin-bottom: 1rem; }
 .mbl     { margin-bottom: 2rem; }
 .mbxl    { margin-bottom: 4rem; }
+.mbxxl   { margin-bottom: 8rem; }
 @media (--breakpoint-md) { .mbm-md { margin-bottom: 1rem; } }
 
 /* Margin left */

@@ -23,8 +23,9 @@
 
 @media (--breakpoint-md) {
   .tc-md { text-align: center; }
+  .tl-md { text-align: left; }
 }
 
-@media (--breakpoint-md) {
-  .tl-md { text-align: left; }
+@media (--breakpoint-lg) {
+  .tr-lg { text-align: right; }
 }

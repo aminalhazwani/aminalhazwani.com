@@ -4,6 +4,7 @@
 
 .mw666 { max-width: 666px; }
 .mw120 { max-width: 120%; }
+.mw120 { max-width: 110%; }
 .mw100 { max-width: 100%; }
 .mw90  { max-width: 90%; }
 .mw80  { max-width: 80%; }
@@ -15,10 +16,13 @@
 
 @media (--breakpoint-sm) {
   .mw60-sm { max-width: 60%; }
+  .w80-sm { max-width: 80%; }
 }
 
 @media (--breakpoint-md) {
   .mw40-md { max-width: 40%; }
   .mw60-md { max-width: 60%; }
+  .mw80-md { max-width: 80%; }
+  .mw90-md { max-width: 90%; }
   .mw700-md { max-width: 700px; }
 }
