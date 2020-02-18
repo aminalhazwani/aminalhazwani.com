@@ -1,22 +1,22 @@
 {
-  "name": "next.aminalhazwani.com",
-  "description": "Upcoming new website",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/aminalhazwani/next.aminalhazwani.com"
+  "name": "aminalhazwani.com",
+  "description": "Amin Al Hazwani's website",
+  "version": "1.0.0",
+  "author": "Amin Al Hazwani",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
   },
   "keywords": [
-    "design",
-    "css"
+    "eleventy"
   ],
-  "author": "Amin Al Hazwani <amin.alhazwani@gmail.com>",
-  "homepage": "http://next.aminalhazwani.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aminalhazwani/aminalhazwani.com"
+  },
   "devDependencies": {
-    "cssnext": "^1.6.0",
-    "gulp": "^3.9.0",
-    "gulp-imageoptim": "^0.2.12",
-    "gulp-postcss": "^5.1.8",
-    "gulp-shell": "^0.4.2",
-    "require-dir": "^0.3.0"
+    "@11ty/eleventy": "^0.10.0"
   }
 }
