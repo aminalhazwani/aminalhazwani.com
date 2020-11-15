@@ -11,5 +11,3 @@ To run the site locally:
 - `yarn` to install all dependencies
 - `yarn serve`
 - Have fun.
-
-For production, run `yarn build`.
