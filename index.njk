@@ -1,0 +1,17 @@
+---
+layout: main
+---
+
+{% for project in projects %}
+  <div class="cf mb6 mb7-l">
+    <div class="fl w-100 w-40-l">
+      <h2 class="f3 f2-l fw4 mt0 mb4">{{ project.title }}</h2>
+      <p class="f4 f3-l lh-title mt0 mb3 mb0-l">
+        {{ project.description }}
+      </p>
+    </div>
+    <div class="fr w-100 w-50-l">
+      <img src="{{ project.imageurl }}" alt="{{ project.imagealt }}">
+    </div>
+  </div>
+{% endfor %}
