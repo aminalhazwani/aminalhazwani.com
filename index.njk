@@ -3,19 +3,57 @@ layout: main
 ---
 
 {% for project in projects %}
-  <div class="cf mb6 mb7-l">
-    <div class="fl w-100 w-40-l">
-      <h2 class="f3 f2-l fw4 mt0 mb4">{{ project.title }}</h2>
-      <p class="f4 f3-l lh-copy mt0 mb3 mb0-l">
-        {{ project.description }}
-      </p>
+  {% if project.width == "full" %}
+    <div class="cf ph2-ns {% if project.height == "full" %}mb6 mb7-l{% else %}mb4 mb5-l{% endif %}">
+      <div class="fl ph2 w-100 w-50-l">
+        <div class="w-80-ns">
+          <h2 class="f3 f2-l fw4 mt0 mb4">
+            <a class="black link underline-hover" href="#">
+              {{ project.title }} <span class="dib rotate-135">&#x2196;</span>
+            </a>
+          </h2>
+          <p class="f4 f3-l lh-copy mt0 mb3 mb0-l">
+            {{ project.description }}
+          </p>
+        </div>
+      </div>
+      <div class="fl ph2 w-100 w-50-l">
+        <img src="{{ project.imageurl }}" alt="{{ project.imagealt }}">
+      </div>
     </div>
-    <div class="fr w-100 w-50-l">
-      <img src="{{ project.imageurl }}" alt="{{ project.imagealt }}">
-    </div>
-  </div>
+  {% else %}
+    {% if (loop.index/2) | round * 2 == loop.index %}
+      <div class="cf ph2-ns mb4">
+    {% endif %}
+        <div class="fl ph2 w-50-ns">
+          <div class="fl w-50-l">
+            <div class="w-90-ns">
+              <h2 class="f5 f4-l fw4 mt0 mb4">
+                <a class="black link underline-hover" href="#">
+                  {{ project.title }} <span class="dib rotate-90">&#x2196;</span>
+                </a>
+              </h2>
+              <p class="f6 f5-l lh-copy mt0 mb3 mb0-l">
+                {{ project.description }}
+              </p>
+            </div>
+          </div>
+          <div class="fl w-50-l">
+            <img src="{{ project.imageurl }}" alt="{{ project.imagealt }}">
+          </div>
+        </div>
+    {% if loop.last %}
+      </div>
+    {% else %}
+      {% if (loop.index/2) | round * 2 != loop.index %}
+        </div>
+      {% endif %}
+    {% endif %}
+  {% endif %}
 {% endfor %}
 
-<p class="f3 f2-m f-subheadline-l lh-title lh-solid-l mv0">
-  Amin Al Hazwani worked as a graphic designer, web designer, event organizer, front-end developer, mobile interface designer, design system designer, product designer, and today is a design ops director. He designed a wide range of things, from icons to design systems. He organized design events and designed design orgs. He worked alone, in a duo, in a small team, in a medium-sized design agency, in a big distributed company. He literally tried it all.
-</p>
+<div class="mt6 mt7-l ph3 pb3">
+  <p class="f3 f2-m f-subheadline-l lh-title lh-solid-l mv0">
+    Amin Al Hazwani worked as a graphic designer, web designer, event organizer, front-end developer, mobile interface designer, design system designer, product designer, and today is a design ops director. He designed a wide range of things, from icons to design systems. He organized design events and designed design orgs. He worked alone, in a duo, in a small team, in a medium-sized design agency, in a big distributed company. He literally tried it all.
+  </p>
+</div>

@@ -3,30 +3,82 @@
     "title": "Design Ops at Accurat",
     "description": "Supports the work of a 30+ multidisciplinary team with human-centered thinking processes. Turns repetitive tasks and organizational dysfunctions into opportunities and learnings. Guides project units with novel design approaches that result in cross-team contaminations.",
     "imageurl": "https://user-images.githubusercontent.com/1721875/99188759-f7564500-275d-11eb-9b43-edd5e31ffd15.jpg",
-    "imagealt": "Accurat installation for the exhibition Broken Nature at the Triennale Design Museum"
+    "imagealt": "Accurat installation for the exhibition Broken Nature at the Triennale Design Museum",
+    "width": "full",
+    "height": "full"
   },
   {
     "title": "Firefox for Echo Show",
     "description": "Designed the first-ever voice-controlled Firefox Browser for 2 smart displays used by 800K+ users.",
     "imageurl": "https://user-images.githubusercontent.com/1721875/99187538-798f3b00-2757-11eb-9cd7-9c2d9151d2f0.jpg",
-    "imagealt": "Homescreen screenshot of Firefox for Echo Show"
-  },
-  {
-    "title": "Firefox Design System",
-    "description": "Joined the Firefox Quantum task force that shipped the new Firefox in November 2017. Audited, tested and documented the new Photon UI language in a design system that set the basis for future Firefox versions.   Organized and supported programs bringing design and engineering closer together.",
-    "imageurl": "https://user-images.githubusercontent.com/1721875/99188497-9e39e180-275c-11eb-8cf6-9acaae7a6b99.png",
-    "imagealt": "Homepage screenshoot of the Firefox Design System website"
+    "imagealt": "Homescreen screenshot of Firefox for Echo Show",
+    "width": "full",
+    "height": "half"
   },
   {
     "title": "Firefox for Fire TV",
     "description": "Reshaped an elementary TV web browser–originally developed in a 5-day sprint–into a native remote-controlled TV app serving up to 8 million users.",
     "imageurl": "https://user-images.githubusercontent.com/1721875/99187459-071e5b00-2757-11eb-8ed5-40aada8ff582.jpg",
-    "imagealt": "Homescreen screenshot of Firefox for Fire TV"
+    "imagealt": "Homescreen screenshot of Firefox for Fire TV",
+    "width": "full",
+    "height": "half"
+  },
+  {
+    "title": "Firefox Design System",
+    "description": "Joined the Firefox Quantum task force that shipped the new Firefox in November 2017. Audited, tested and documented the new Photon UI language in a design system that set the basis for future Firefox versions.   Organized and supported programs bringing design and engineering closer together.",
+    "imageurl": "https://user-images.githubusercontent.com/1721875/99188497-9e39e180-275c-11eb-8cf6-9acaae7a6b99.png",
+    "imagealt": "Homepage screenshoot of the Firefox Design System website",
+    "width": "full",
+    "height": "full"
+  },
+  {
+    "title": "Visiting Professor",
+    "description": "Developed the first 60-hour course on Web and Media Design at the MA in Eco-Social Design. Assisted and mentored a group of students during the development of their main semester project.",
+    "imageurl": "https://webservices.scientificnet.org/rest/uisdata/api/v1/seats/1/image",
+    "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
+    "width": "full",
+    "height": "full"
+  },
+  {
+    "title": "A List Apart",
+    "description": "Designed and co-developed the university website built on a custom WYSIWYG editor where faculty staff can autonomously compose and publish web pages for a total of 5 schools, 49 curricula and counting.",
+    "imageurl": "https://alistapart.com/it/wp-content/uploads/sites/2/2016/01/DanaPavlichko-TobiasBernardAminAlHazwani.png",
+    "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
+    "width": "half"
+  },
+  {
+    "title": "Studio Mut",
+    "description": "Founded a one-man studio specialized in design for screens. Helped freelancers, companies and startups shape their web and mobile presence.",
+    "imageurl": "https://studio.aminalhazwani.com/images/mut-website-1.jpg",
+    "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
+    "width": "half"
+  },
+  {
+    "title": "Tronko",
+    "description": "Designed and co-developed the university website built on a custom WYSIWYG editor where faculty staff can autonomously compose and publish web pages for a total of 5 schools, 49 curricula and counting.",
+    "imageurl": "https://studio.aminalhazwani.com/images/tronko-app-screens.jpg",
+    "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
+    "width": "half"
   },
   {
     "title": "Unibz Design System",
+    "description": "Founded a one-man studio specialized in design for screens. Helped freelancers, companies and startups shape their web and mobile presence.",
+    "imageurl": "https://studio.aminalhazwani.com/images/unibz-mobile-view.jpg",
+    "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
+    "width": "half"
+  },
+    {
+    "title": "Accurat",
     "description": "Designed and co-developed the university website built on a custom WYSIWYG editor where faculty staff can autonomously compose and publish web pages for a total of 5 schools, 49 curricula and counting.",
-    "imageurl": "https://user-images.githubusercontent.com/1721875/99188969-2ae59f00-275f-11eb-9383-55b0b7105095.png",
-    "imagealt": "Picture of the Free University of Bozen-Bolzano campus"
+    "imageurl": "https://studio.aminalhazwani.com/images/accurat-website-1.jpg",
+    "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
+    "width": "half"
+  },
+  {
+    "title": "Newsboy",
+    "description": "Founded a one-man studio specialized in design for screens. Helped freelancers, companies and startups shape their web and mobile presence.",
+    "imageurl": "https://studio.aminalhazwani.com/images/newsboy-app-screens.jpg",
+    "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
+    "width": "half"
   }
 ]
