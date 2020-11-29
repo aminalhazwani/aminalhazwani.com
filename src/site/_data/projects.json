@@ -41,42 +41,47 @@
   },
   {
     "title": "A List Apart",
-    "description": "Designed and co-developed the university website built on a custom WYSIWYG editor where faculty staff can autonomously compose and publish web pages for a total of 5 schools, 49 curricula and counting.",
-    "imageurl": "https://alistapart.com/it/wp-content/uploads/sites/2/2016/01/DanaPavlichko-TobiasBernardAminAlHazwani.png",
+    "description": "Co-authored an article about the importance of animation in product design, and how motion creates opportunities to make our interfaces better at every level: it can make them easier to understand, more pleasant to use, and nicer to look at.",
+    "url": "https://alistapart.com/article/motion-with-meaning-semantic-animation-in-interface-design/",
+    "imageurl": "https://user-images.githubusercontent.com/1721875/100546729-3064de00-3263-11eb-895d-476150326ed5.png",
     "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
     "width": "half"
   },
   {
     "title": "Studio Mut",
-    "description": "Founded a one-man studio specialized in design for screens. Helped freelancers, companies and startups shape their web and mobile presence.",
-    "imageurl": "https://studio.aminalhazwani.com/images/mut-website-1.jpg",
-    "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
-    "width": "half"
-  },
-  {
-    "title": "Tronko",
-    "description": "Designed and co-developed the university website built on a custom WYSIWYG editor where faculty staff can autonomously compose and publish web pages for a total of 5 schools, 49 curricula and counting.",
-    "imageurl": "https://studio.aminalhazwani.com/images/tronko-app-screens.jpg",
+    "description": "...",
+    "url": "https://studiomut.com/",
+    "imageurl": "https://user-images.githubusercontent.com/1721875/100546784-75891000-3263-11eb-927f-ffa75615d624.png",
     "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
     "width": "half"
   },
   {
     "title": "Unibz Design System",
-    "description": "Founded a one-man studio specialized in design for screens. Helped freelancers, companies and startups shape their web and mobile presence.",
-    "imageurl": "https://studio.aminalhazwani.com/images/unibz-mobile-view.jpg",
+    "description": "Designed and co-developed the university website built on a custom WYSIWYG editor where faculty staff can autonomously compose and publish web pages for a total of 5 schools, 49 curricula and counting.",
+    "url": "https://www.unibz.it/",
+    "imageurl": "https://user-images.githubusercontent.com/1721875/100546898-17106180-3264-11eb-9af5-1cc1390c640d.png",
     "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
     "width": "half"
   },
-    {
+  {
+    "title": "Tronko",
+    "description": "...",
+    "url": "https://tronko.com/",
+    "imageurl": "https://tronko.com/images/intro-lg@2x.png",
+    "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
+    "width": "half"
+  },
+  {
     "title": "Accurat",
-    "description": "Designed and co-developed the university website built on a custom WYSIWYG editor where faculty staff can autonomously compose and publish web pages for a total of 5 schools, 49 curricula and counting.",
+    "description": "...",
+    "url": "https://www.accurat.it/",
     "imageurl": "https://studio.aminalhazwani.com/images/accurat-website-1.jpg",
     "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
     "width": "half"
   },
   {
     "title": "Newsboy",
-    "description": "Founded a one-man studio specialized in design for screens. Helped freelancers, companies and startups shape their web and mobile presence.",
+    "description": "...",
     "imageurl": "https://studio.aminalhazwani.com/images/newsboy-app-screens.jpg",
     "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
     "width": "half"
