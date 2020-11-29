@@ -6,8 +6,9 @@ module.exports = {
       'sans': ['Helvetica', 'Arial', 'sans-serif'],
     },
     screens: {
-      'md': '30rem',
-      'lg': '60rem'
+      'md': '32rem',
+      'lg': '64rem',
+      'xl': '80rem',
     },
   },
   variants: {},
