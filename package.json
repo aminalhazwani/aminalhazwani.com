@@ -18,7 +18,7 @@
     "type": "git",
     "url": "https://github.com/aminalhazwani/aminalhazwani.com"
   },
-  "dependencies": {
+  "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "autoprefixer": "^10.0.4",
     "css-loader": "^5.0.1",
