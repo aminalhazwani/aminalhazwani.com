@@ -9,5 +9,5 @@ To run the site locally:
 - Install [Yarn](https://yarnpkg.com/en/)
 - `git clone https://github.com/aminalhazwani/aminalhazwani.com`
 - `yarn` to install all dependencies
-- `yarn serve`
+- `yarn dev`
 - Have fun.
