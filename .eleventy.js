@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const manifestPath = path.resolve(__dirname, "dist", "assets", "manifest.json");
+const manifestPath = path.resolve(__dirname, "dist", "static", "manifest.json");
 const manifest = JSON.parse(
   fs.readFileSync(manifestPath, { encoding: "utf8" })
 );
@@ -9,7 +9,7 @@ const manifest = JSON.parse(
 module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("default", "layouts/default.njk");
 
-  eleventyConfig.addShortcode("webpackAsset", function(name) {
+  eleventyConfig.addShortcode("static", function(name) {
     if (!manifest[name]) {
       throw new Error(`The asset ${name} does not exist in ${manifestPath}`);
     }
