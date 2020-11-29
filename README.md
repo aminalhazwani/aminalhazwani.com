@@ -6,8 +6,7 @@ This is the code behind [my website](https://aminalhazwani.com).
 
 To run the site locally:
 
-- Install [Yarn](https://yarnpkg.com/en/)
 - `git clone https://github.com/aminalhazwani/aminalhazwani.com`
-- `yarn` to install all dependencies
-- `yarn dev`
+- `npm install` to install all dependencies
+- `npm run dev`
 - Have fun.
