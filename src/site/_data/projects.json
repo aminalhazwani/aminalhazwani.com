@@ -41,17 +41,17 @@
   },
   {
     "title": "A List Apart",
-    "description": "Co-authored an article about the importance of animation in product design, and how motion creates opportunities to make our interfaces better at every level: it can make them easier to understand, more pleasant to use, and nicer to look at.",
+    "description": "Co-authored an article about the importance of animation in product design, and how motion creates opportunities to make our interfaces better at every level.",
     "url": "https://alistapart.com/article/motion-with-meaning-semantic-animation-in-interface-design/",
-    "imageurl": "https://user-images.githubusercontent.com/1721875/100546729-3064de00-3263-11eb-895d-476150326ed5.png",
+    "imageurl": "https://user-images.githubusercontent.com/1721875/100669908-60dd7280-335e-11eb-85a7-2ec670e7740b.png",
     "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
     "width": "half"
   },
   {
     "title": "Studio Mut",
-    "description": "...",
+    "description": "Co-designed and developed the website for \"one of the most vibrant graphic design studios in Italy\" Grafik Magazine, London.",
     "url": "https://studiomut.com/",
-    "imageurl": "https://user-images.githubusercontent.com/1721875/100546784-75891000-3263-11eb-927f-ffa75615d624.png",
+    "imageurl": "https://user-images.githubusercontent.com/1721875/100670005-89656c80-335e-11eb-872b-45c4ff58e9da.png",
     "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
     "width": "half"
   },
@@ -59,7 +59,7 @@
     "title": "Unibz Design System",
     "description": "Designed and co-developed the university website built on a custom WYSIWYG editor where faculty staff can autonomously compose and publish web pages for a total of 5 schools, 49 curricula and counting.",
     "url": "https://www.unibz.it/",
-    "imageurl": "https://user-images.githubusercontent.com/1721875/100546898-17106180-3264-11eb-9af5-1cc1390c640d.png",
+    "imageurl": "https://user-images.githubusercontent.com/1721875/100670146-c0d41900-335e-11eb-894e-6b6946bab198.png",
     "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
     "width": "half"
   },
@@ -67,15 +67,15 @@
     "title": "Tronko",
     "description": "...",
     "url": "https://tronko.com/",
-    "imageurl": "https://tronko.com/images/intro-lg@2x.png",
+    "imageurl": "https://studio.aminalhazwani.com/images/tronko-app-screens.jpg",
     "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
     "width": "half"
   },
   {
     "title": "Accurat",
-    "description": "...",
+    "description": "Co-designed and co-developed...",
     "url": "https://www.accurat.it/",
-    "imageurl": "https://studio.aminalhazwani.com/images/accurat-website-1.jpg",
+    "imageurl": "https://user-images.githubusercontent.com/1721875/100673320-8caf2700-3363-11eb-807c-c23fe9b34612.png",
     "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
     "width": "half"
   },
