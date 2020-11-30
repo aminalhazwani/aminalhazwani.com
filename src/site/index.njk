@@ -6,7 +6,7 @@ layout: default
 {% for project in projects %}
   {% if project.width == "full" %}
     <div class="flow-root {% if project.height == "full" %}mb-32{% else %}mb-16{% endif %} px-3">
-      <div class="float-left px-1 md:w-1/2">
+      <div class="float-left px-1 md:pl-1 md:pr-2 md:w-1/2">
         <div class="md:w-10/12 lg:w-4/5">
           <h2 class="font-normal mb-8 text-xl md:text-2xl lg:text-3xl xl:text-4xl">
             <a href="#">
@@ -18,7 +18,7 @@ layout: default
           </p>
         </div>
       </div>
-      <div class="float-left px-1 md:w-1/2">
+      <div class="float-left px-1 md:pl-2 md:pr-1 md:w-1/2">
         <img src="{{ project.imageurl }}" alt="{{ project.imagealt }}">
       </div>
     </div>
