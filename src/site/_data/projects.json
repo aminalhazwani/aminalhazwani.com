@@ -26,7 +26,7 @@
   {
     "title": "Firefox Design System",
     "description": "Joined the Firefox Quantum task force that shipped the new Firefox in November 2017. Audited, tested and documented the new Photon UI language in a design system that set the basis for future Firefox versions.   Organized and supported programs bringing design and engineering closer together.",
-    "imageurl": "https://user-images.githubusercontent.com/1721875/99188497-9e39e180-275c-11eb-8cf6-9acaae7a6b99.png",
+    "imageurl": "https://user-images.githubusercontent.com/1721875/100805319-be40f480-342e-11eb-9a16-ddff4b77a8b0.jpg",
     "imagealt": "Homepage screenshoot of the Firefox Design System website",
     "width": "full",
     "height": "full"
@@ -48,26 +48,33 @@
     "width": "half"
   },
   {
+    "title": "Unibz Design System",
+    "description": "Designed and co-developed the university website built on a custom WYSIWYG editor where faculty staff can autonomously compose and publish web pages for a total of 5 schools, 49 curricula and counting.",
+    "url": "https://www.unibz.it/",
+    "imageurl": "https://user-images.githubusercontent.com/1721875/100804996-23481a80-342e-11eb-97d0-1cd335608cc1.png",
+    "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
+    "width": "half"
+  },
+  {
     "title": "Studio Mut",
-    "description": "Co-designed and developed the website for \"one of the most vibrant graphic design studios in Italy\" Grafik Magazine, London.",
+    "description": "Co-designed and developed the website for \"one of the most vibrant graphic design studios in Italy\" Grafik Magazine – London.",
     "url": "https://studiomut.com/",
     "imageurl": "https://user-images.githubusercontent.com/1721875/100670005-89656c80-335e-11eb-872b-45c4ff58e9da.png",
     "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
     "width": "half"
   },
   {
-    "title": "Unibz Design System",
-    "description": "Designed and co-developed the university website built on a custom WYSIWYG editor where faculty staff can autonomously compose and publish web pages for a total of 5 schools, 49 curricula and counting.",
-    "url": "https://www.unibz.it/",
-    "imageurl": "https://user-images.githubusercontent.com/1721875/100670146-c0d41900-335e-11eb-894e-6b6946bab198.png",
+    "title": "Tronko",
+    "description": "There’s no better algorithm than the suggestions from your own peers. Tronko is an app for movies and TV shows recommendations from the one source you trust – your friends.",
+    "url": "https://tronko.com/",
+    "imageurl": "https://user-images.githubusercontent.com/1721875/100800291-b0877100-3426-11eb-8331-9b98d9e628c3.jpg",
     "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
     "width": "half"
   },
   {
-    "title": "Tronko",
-    "description": "...",
-    "url": "https://tronko.com/",
-    "imageurl": "https://studio.aminalhazwani.com/images/tronko-app-screens.jpg",
+    "title": "Newsboy",
+    "description": "Designed and prototyped a mobile app concept... as part of my final thesis... when Stories weren't cool...",
+    "imageurl": "https://user-images.githubusercontent.com/1721875/100802941-8fc11a80-342a-11eb-9ace-5535ce02ec5e.jpg",
     "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
     "width": "half"
   },
@@ -75,14 +82,7 @@
     "title": "Accurat",
     "description": "Co-designed and co-developed...",
     "url": "https://www.accurat.it/",
-    "imageurl": "https://user-images.githubusercontent.com/1721875/100673320-8caf2700-3363-11eb-807c-c23fe9b34612.png",
-    "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
-    "width": "half"
-  },
-  {
-    "title": "Newsboy",
-    "description": "...",
-    "imageurl": "https://studio.aminalhazwani.com/images/newsboy-app-screens.jpg",
+    "imageurl": "https://user-images.githubusercontent.com/1721875/100804628-85ece680-342d-11eb-836e-a5414217ab50.jpg",
     "imagealt": "Picture of the Free University of Bozen-Bolzano campus",
     "width": "half"
   }
