@@ -3,15 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ metadata.title }}</title>
+    <meta name="description" content="{{ description or metadata.description }}">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="robots" content="noindex,nofollow">
     <meta name="googlebot" content="noindex,nofollow">
     <meta name="google" content="nositelinkssearchbox" />
     <meta name="google" content="notranslate">
     <link rel="stylesheet" href="{% static 'main.css' %}">
-    <title>{{ metadata.title }}</title>
   </head>
-  <body class="bg-white font-sans m-auto pt-4 text-black dark:bg-black dark:text-white">
+  <body class="bg-gray-100 font-sans m-auto text-black dark:bg-black dark:text-white">
+    <header class="flex mb-32 px-4 pt-4 lg:text-xl xl:text-2xl">
+      <h1 class="flex-grow"><a href="/">Amin Al Hazwani</a></h1>
+      <a href="#about">About</a>
+    </header>
     {{ content | safe }}
   </body>
 </html>
