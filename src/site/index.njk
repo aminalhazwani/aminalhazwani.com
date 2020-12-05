@@ -4,8 +4,11 @@ layout: default
 ---
 
 {% for project in collections.projects %}
-  {% if project.data.width == "full" %}
-    <div class="flow-root {% if project.data.height == "full" %}mb-32{% else %}mb-16{% endif %} px-3">
+  {% if project.data.layout == "page" %}
+    <section class="flow-root
+      {% if project.data.height == "full" %} mb-32
+      {% else %} mb-16
+      {% endif %} px-3">
       <div class="float-left px-1 md:pl-1 md:pr-2 md:w-1/2">
         <div class="md:w-10/12 lg:w-4/5">
           <h2 class="font-normal mb-8 text-xl md:text-2xl lg:text-3xl xl:text-4xl">
@@ -22,11 +25,11 @@ layout: default
       <div class="float-left px-1 md:pl-2 md:pr-1 md:w-1/2">
         <img src="{{ project.data.imageurl }}" alt="{{ project.data.imagealt }}">
       </div>
-    </div>
+    </section>
   {% else %}
     {% if (loop.index/2) | round * 2 == loop.index %}
-      <div class="flow-root px-2 {% if (loop.index+1) == loop.length %}mb-32{% else %}mb-8{% endif %}">
-        <div class="float-left px-1 mb-8 w-1/2">
+      <section class="flow-root {% if (loop.index+1) == loop.length %}mb-32{% else %}mb-8{% endif %} px-2">
+        <div class="float-left px-1 md:mb-8 w-1/2">
     {% else %}
       <div class="float-left px-1 w-1/2">
     {% endif %}
@@ -38,7 +41,7 @@ layout: default
                 <span>↗</span>
               </a>
             </h2>
-            <p class="leading-snug mb-2 text-sm md:text-base">
+            <p class="leading-tight mb-2 text-sm md:leading-snug md:text-base">
               {{ project.data.description }}
             </p>
           </div>
@@ -48,15 +51,11 @@ layout: default
         </div>
       </div>
     {% if loop.last %}
-      </div>
+      </section>
     {% else %}
     {% if (loop.index/2) | round * 2 != loop.index %}
-      </div>
+      </section>
     {% endif %}
     {% endif %}
   {% endif %}
 {% endfor %}
-
-<p id="about" class="leading-tight px-4 pb-4 text-2xl md:text-3xl lg:text-7xl lg:leading-none">
-  Amin Al Hazwani worked as a graphic designer, web designer, event organizer, front-end developer, mobile interface designer, design system designer, product designer, and today is a design ops director. He designed a wide range of things, from icons to design systems. He organized design events and designed design orgs. He worked alone, in a duo, in a small team, in a medium-sized design agency, in a big distributed company. He literally tried it all.
-</p>
