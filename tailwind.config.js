@@ -5,7 +5,7 @@ module.exports = {
       "sans": ["Inter", "Arial", "sans-serif"],
     },
     screens: {
-      "md": "32rem",
+      "md": "36rem",
       "lg": "64rem",
       "xl": "80rem",
     },
