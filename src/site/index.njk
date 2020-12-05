@@ -9,7 +9,7 @@ layout: default
       <div class="float-left px-1 md:pl-1 md:pr-2 md:w-1/2">
         <div class="md:w-10/12 lg:w-4/5">
           <h2 class="font-normal mb-8 text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-            <a href="{{ project.url }}">
+            <a class="underline underline-offset-0.5" href="{{ project.url }}">
               {{ project.data.title }}
             </a>
           </h2>
@@ -32,8 +32,8 @@ layout: default
         <div class="float-left px-1 lg:w-1/2">
           <div class="md:w-11/12">
             <h2 class="font-normal mb-4 text-base md:text-xl">
-              <a href="{{ project.data.url }}">
-                {{ project.data.title }}
+              <a class="underline" href="{{ project.data.url }}">
+                {{ project.data.title }} ↗
               </a>
             </h2>
             <p class="leading-snug mb-2 text-sm md:text-base">

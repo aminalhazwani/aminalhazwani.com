@@ -1,6 +1,12 @@
 /* purgecss start ignore */
-@import "tailwindcss/base";
-@import "tailwindcss/components";
+@tailwind base;
+@tailwind components;
 /* purgecss end ignore */
 
-@import "tailwindcss/utilities";
+@tailwind utilities;
+
+@layer utilities {
+  .underline-offset-0.5 {
+    text-underline-offset: 1rem
+  }
+}
