@@ -9,8 +9,9 @@ layout: default
       <div class="float-left px-1 md:pl-1 md:pr-2 md:w-1/2">
         <div class="md:w-10/12 lg:w-4/5">
           <h2 class="font-normal mb-8 text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-            <a class="underline underline-offset-0.5" href="{{ project.url }}">
-              {{ project.data.title }}
+            <a class="group" href="{{ project.url }}">
+              <span class="underline underline-offset-0.75">{{ project.data.title }}</span>
+              <span class="opacity-0 group-hover:opacity-100">→</span>
             </a>
           </h2>
           <p class="mb-4 leading-snug lg:text-xl xl:text-2xl">
@@ -32,8 +33,9 @@ layout: default
         <div class="float-left px-1 lg:w-1/2">
           <div class="md:w-11/12">
             <h2 class="font-normal mb-4 text-base md:text-xl">
-              <a class="underline" href="{{ project.data.url }}">
-                {{ project.data.title }} ↗
+              <a href="{{ project.data.url }}">
+                <span class="underline underline-offset-0.5 underline-thickness-0.25">{{ project.data.title }}</span>
+                <span>↗</span>
               </a>
             </h2>
             <p class="leading-snug mb-2 text-sm md:text-base">

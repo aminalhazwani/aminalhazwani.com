@@ -12,10 +12,14 @@
     <meta name="google" content="notranslate">
     <link rel="stylesheet" href="{% static 'main.css' %}">
   </head>
-  <body class="bg-gray-100 font-sans m-auto text-black dark:bg-black dark:text-white">
+  <body class="bg-gray-100 font-sans m-auto text-black tracking-tight dark:bg-black dark:text-white">
     <header class="flex mb-32 px-4 pt-4 lg:text-xl xl:text-2xl">
-      <h1 class="flex-grow"><a href="/">Amin Al Hazwani</a></h1>
-      <a href="#about">About</a>
+      <h1 class="flex-grow">
+        <a href="/">Amin Al Hazwani</a>
+      </h1>
+      <a class="group" href="#about">
+        <span class="opacity-0 group-hover:opacity-100">↓</span> About
+      </a>
     </header>
     {{ content | safe }}
   </body>
