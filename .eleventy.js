@@ -1,5 +1,6 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require("fs")
+const path = require("path")
+const htmlmin = require('html-minifier')
 
 const manifestPath = path.resolve(__dirname, "dist", "static", "manifest.json");
 const manifest = JSON.parse(
@@ -19,6 +20,18 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/img": "img" });
 
   eleventyConfig.setBrowserSyncConfig({ files: [manifestPath] });
+
+  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+    if( outputPath.endsWith(".html") ) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true
+      })
+      return minified
+    }
+    return content
+  })
 
   return {
     dir: {
