@@ -9,6 +9,7 @@ const manifest = JSON.parse(
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("default", "layouts/default.njk");
+  eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
 
   eleventyConfig.addShortcode("static", function(name) {
     if (!manifest[name]) {
@@ -16,6 +17,8 @@ module.exports = function(eleventyConfig) {
     }
     return manifest[name];
   });
+
+  eleventyConfig.setDynamicPermalinks(false);
 
   eleventyConfig.addPassthroughCopy({ "src/img": "img" });
 
