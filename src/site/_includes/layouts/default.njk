@@ -13,14 +13,14 @@
     <link rel="stylesheet" href="{% static 'main.css' %}">
   </head>
   <body class="bg-gray-100 font-sans leading-none m-auto max-w-screen-2xl text-black dark:bg-black dark:text-white">
-    <header class="flex mb-32 px-4 pt-4 lg:text-xl xl:text-2xl">
-      <h1 class="flex-grow group">
-        <a href="/">Amin Al Hazwani</a><span class="font-inter ml-2 opacity-0 group-hover:ml-1 group-hover:opacity-100 group-hover:transition-all">←</span>
+    <header id="index" class="flex mb-32 px-4 pt-4 lg:text-xl xl:text-2xl">
+      <h1 class="flex-grow group leading-none">
+        <a href="/">Index</a><span class="font-inter ml-2 opacity-0 group-hover:ml-1 group-hover:opacity-100 group-hover:transition-all">←</span>
       </h1>
-      <p class="group"><span class="font-inter mr-1 opacity-0 relative -top-1 group-hover:top-0 group-hover:opacity-100 group-hover:transition-all">↓</span><a href="#about">About</a></p>
+      <p class="group leading-none"><span class="font-inter mr-1 opacity-0 relative -top-1 group-hover:top-0 group-hover:opacity-100 group-hover:transition-all">↓</span><a href="#info">Info</a></p>
     </header>
     {{ content | safe }}
-    <footer id="about" class="px-4">
+    <footer id="info" class="px-4">
       <p class="leading-tight mb-32 text-2xl md:tracking-tight md:text-3xl lg:text-7xl lg:leading-none">
         {{ metadata.description.long }}
       </p>
@@ -35,10 +35,13 @@
             GitHub<span class="font-inter ml-1">↗</span>
           </a>
         </li>
-        <li class="mb-4 md:mr-8">
-          <a class="lg:text-xl xl:text-2xl" href="https://www.linkedin.com/in/aminalhazwani/">
-            LinkedIn<span class="font-inter ml-1">↗</span>
-          </a>
+        <li class="mb-4 md:flex-grow">
+          <div class="flex lg:text-xl xl:text-2xl">
+            <a class="flex-grow" href="https://www.linkedin.com/in/aminalhazwani/">
+              LinkedIn<span class="font-inter ml-1">↗</span>
+            </a>
+            <span class="font-inter mr-1">↑</span><a href="#index">Top</a>
+          </div>
         </li>
       </ul>
     </footer>
