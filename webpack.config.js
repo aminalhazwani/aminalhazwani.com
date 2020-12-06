@@ -10,6 +10,8 @@ module.exports = {
   mode: dev ? "development" : "production",
   entry: [
     path.resolve(__dirname, "src", "css", "index.css"),
+    path.resolve(__dirname, "src", "fonts", "Inter-Regular.woff"),
+    path.resolve(__dirname, "src", "fonts", "Inter-Regular.woff2"),
   ],
   output: {
     path: path.resolve(__dirname, "dist", "static"),
