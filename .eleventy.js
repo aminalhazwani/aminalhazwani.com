@@ -20,7 +20,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setDynamicPermalinks(false);
 
-  eleventyConfig.addPassthroughCopy({ "src/img": "img" });
+  eleventyConfig.addPassthroughCopy({ "src/images": "images" });
 
   eleventyConfig.setBrowserSyncConfig({ files: [manifestPath] });
 
