@@ -20,7 +20,7 @@ layout: default
         </div>
       </div>
       <div class="float-left px-1 md:pl-2 md:pr-1 md:w-1/2">
-        <img src="{{ project.data.imageurl }}" alt="{{ project.data.imagealt }}">
+        <img src="images/{{ project.data.image.name }}.jpg" alt="{{ project.data.image.alt }}">
       </div>
     </section>
   {% else %}
@@ -43,7 +43,7 @@ layout: default
           </div>
         </div>
         <div class="float-left px-1 lg:w-1/2">
-          <img src="{{ project.data.imageurl }}" alt="{{ project.data.imagealt }}">
+          <img src="images/{{ project.data.image.name }}.jpg" alt="{{ project.data.image.alt }}">
         </div>
       </div>
     {% if loop.last %}
