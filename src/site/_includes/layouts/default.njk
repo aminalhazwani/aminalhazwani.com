@@ -3,14 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ metadata.title }}</title>
+    <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ description or metadata.description.short }}">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="robots" content="noindex,nofollow">
-    <meta name="googlebot" content="noindex,nofollow">
-    <meta name="google" content="nositelinkssearchbox" />
-    <meta name="google" content="notranslate">
     <link rel="stylesheet" href="{% static 'main.css' %}">
+    <link rel="canonical" href="{{ metadata.url }}">
   </head>
   <body class="bg-gray-100 font-sans leading-none m-auto max-w-screen-2xl text-black dark:bg-black dark:text-white">
     <header id="index" class="flex mb-32 px-4 pt-4 lg:text-xl xl:text-2xl">
