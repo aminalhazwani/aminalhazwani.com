@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ metadata.title }}</title>
-    <meta name="description" content="{{ description or metadata.description }}">
+    <meta name="description" content="{{ description or metadata.description.short }}">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="robots" content="noindex,nofollow">
     <meta name="googlebot" content="noindex,nofollow">
@@ -12,29 +12,33 @@
     <meta name="google" content="notranslate">
     <link rel="stylesheet" href="{% static 'main.css' %}">
   </head>
-  <body class="bg-gray-100 font-sans m-auto leading-none text-black tracking-tight dark:bg-black dark:text-white">
+  <body class="bg-gray-100 font-sans leading-none m-auto max-w-screen-2xl text-black dark:bg-black dark:text-white">
     <header class="flex mb-32 px-4 pt-4 lg:text-xl xl:text-2xl">
-      <h1 class="flex-grow">
-        <a href="/">Amin Al Hazwani</a>
+      <h1 class="flex-grow group">
+        <a href="/">Amin Al Hazwani</a><span class="font-inter ml-2 opacity-0 group-hover:ml-1 group-hover:opacity-100 group-hover:transition-all">←</span>
       </h1>
-      <a class="group" href="#about">
-        <span class="opacity-0 group-hover:opacity-100">↓</span> About
-      </a>
+      <p class="group"><span class="font-inter mr-1 opacity-0 relative -top-1 group-hover:top-0 group-hover:opacity-100 group-hover:transition-all">↓</span><a href="#about">About</a></p>
     </header>
     {{ content | safe }}
     <footer id="about" class="px-4">
-      <p class="leading-tight mb-32 text-2xl md:text-3xl lg:text-7xl lg:leading-none">
-        Amin Al Hazwani worked as a graphic designer, web designer, event organizer, front-end developer, mobile interface designer, design system designer, product designer, and today is a design ops director. He designed a wide range of things, from icons to design systems. He organized design events and designed design orgs. He worked alone, in a duo, in a small team, in a medium-sized design agency, in a big distributed company. He literally tried it all.
+      <p class="leading-tight mb-32 text-2xl md:tracking-tight md:text-3xl lg:text-7xl lg:leading-none">
+        {{ metadata.description.long }}
       </p>
       <ul class="md:flex">
         <li class="mb-4 md:mr-8">
-          <a class="lg:text-xl xl:text-2xl" href="https://twitter.com/aminalhazwani">Twitter</a>
+          <a class="lg:text-xl xl:text-2xl" href="https://twitter.com/aminalhazwani">
+            Twitter<span class="font-inter ml-1">↗</span>
+          </a>
         </li>
         <li class="mb-4 md:mr-8">
-          <a class="lg:text-xl xl:text-2xl" href="https://github.com/aminalhazwani/">GitHub</a>
+          <a class="lg:text-xl xl:text-2xl" href="https://github.com/aminalhazwani/">
+            GitHub<span class="font-inter ml-1">↗</span>
+          </a>
         </li>
         <li class="mb-4 md:mr-8">
-          <a class="lg:text-xl xl:text-2xl" href="https://www.linkedin.com/in/aminalhazwani/">LinkedIn</a>
+          <a class="lg:text-xl xl:text-2xl" href="https://www.linkedin.com/in/aminalhazwani/">
+            LinkedIn<span class="font-inter ml-1">↗</span>
+          </a>
         </li>
       </ul>
     </footer>
