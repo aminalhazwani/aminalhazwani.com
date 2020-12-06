@@ -11,11 +11,8 @@ layout: default
       {% endif %} px-3">
       <div class="float-left px-1 md:pl-1 md:pr-2 md:w-1/2">
         <div class="md:w-10/12 lg:w-4/5">
-          <h2 class="font-normal mb-8 text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-            <a class="group" href="{{ project.url }}">
-              <span class="underline underline-offset-0.75">{{ project.data.title }}</span>
-              <span class="opacity-0 group-hover:opacity-100">→</span>
-            </a>
+          <h2 class="font-normal group inline-block mb-8 text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+            <a class="underline underline-offset-0.75 md:underline-thickness-0.5 md:underline-offset-1 xl:underline-offset-1.5" href="{{ project.url }}">{{ project.data.title }}</a><span class="font-inter ml-0 opacity-0 group-hover:ml-2 group-hover:opacity-100 group-hover:transition-all">→</span>
           </h2>
           <p class="mb-4 leading-snug lg:text-xl xl:text-2xl">
             {{ project.data.description }}
@@ -29,18 +26,17 @@ layout: default
   {% else %}
     {% if (loop.index/2) | round * 2 == loop.index %}
       <section class="flow-root {% if (loop.index+1) == loop.length %}mb-32{% else %}mb-8{% endif %} px-2">
-        <div class="float-left px-1 md:mb-8 w-1/2">
+        <div class="float-left mb-8 px-1 sm:mb-0 sm:w-1/2">
     {% else %}
-      <div class="float-left px-1 w-1/2">
+      <div class="float-left px-1 sm:w-1/2">
     {% endif %}
         <div class="float-left px-1 lg:w-1/2">
           <div class="md:w-11/12">
-            <h2 class="font-normal mb-4 text-base md:text-xl">
+            <h3 class="font-normal inline-block mb-4 text-base md:text-xl">
               <a href="{{ project.data.url }}">
-                <span class="underline underline-offset-0.5 underline-thickness-0.25">{{ project.data.title }}</span>
-                <span>↗</span>
+                <span class="mr-1 underline underline-offset-0.5 underline-thickness-0.25 md:underline-offset-0.75 md:underline-thickness-0.25">{{ project.data.title }}</span><span class="font-inter">↗</span>
               </a>
-            </h2>
+            </h3>
             <p class="leading-tight mb-2 text-sm md:leading-snug md:text-base">
               {{ project.data.description }}
             </p>
