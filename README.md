@@ -1,3 +1,13 @@
-## next.aminalhazwani.com
+# Hello
 
-Let's try to build (finally) a proper website for a (maybe) proper called web designer. Current progress visible at [next.aminalhazwani.com](http://next.aminalhazwani.com/).
+This is the code behind [my website](https://aminalhazwani.com).
+
+## Setup
+
+To run the site locally:
+
+- Install [Yarn](https://classic.yarnpkg.com/en/) 
+- `git clone https://github.com/aminalhazwani/aminalhazwani.com`
+- `yarn` to install all dependencies
+- `yarn dev`
+- Have fun.

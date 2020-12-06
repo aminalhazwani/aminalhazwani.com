@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"),
+       url("../fonts/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @variants responsive {
+    .underline-offset-0\.5 {
+      text-underline-offset: 0.125rem;
+    }
+
+    .underline-offset-0\.75 {
+      text-underline-offset: 0.1875rem;
+    }
+
+    .underline-offset-1 {
+      text-underline-offset: 0.25rem;
+    }
+
+    .underline-thickness-0\.25 {
+      text-decoration-thickness: 0.0625rem;
+    }
+
+    .underline-thickness-0\.5 {
+      text-decoration-thickness: 0.125rem;
+    }
+  }
+}
