@@ -33,7 +33,8 @@ layout: default
         <div class="float-left px-1 lg:w-1/2">
           <div class="md:w-11/12">
             <h3 class="font-normal inline-block mb-4 text-base md:text-xl">
-              {{ project.data.title }}
+              <a href="{{ project.data.url }}">
+                <span class="mr-1 underline underline-offset-0.5 underline-thickness-0.25 md:underline-offset-0.75 md:underline-thickness-0.25 lg:underline-thickness-0.5">{{ project.data.title }}</span><span class="font-inter">↗</span>
               </a>
             </h3>
             <p class="leading-tight mb-2 text-sm md:leading-snug md:text-base">
