@@ -16,14 +16,6 @@ const resizes = [
   },
 ];
 
-// const formats = [
-//   {
-//     src: "./src/images/*.jpg",
-//     dist: "./dist/images/webp",
-//     format: "webp",
-//   },
-// ];
-
 resizes.forEach((resize) => {
   if (!fs.existsSync(resize.dist)) {
     fs.mkdirSync(resize.dist, { recursive: true }, (err) => {
@@ -47,27 +39,6 @@ resizes.forEach((resize) => {
             console.log(err);
           });
       })
-      .catch((err) => {
-        console.log(err);
-      });
-  });
-});
-
-
-formats.forEach((format) => {
-  if (!fs.existsSync(format.dist)) {
-    fs.mkdirSync(format.dist, { recursive: true }, (err) => {
-      if (err) throw err;
-    });
-  }
-
-  let files = glob.sync(format.src);
-
-  files.forEach((file) => {
-    let filename = path.basename(file);
-    const image = sharp(file);
-    image
-      .toFile(`${format.dist}/${filename.replace("jpg", format.format)}`)
       .catch((err) => {
         console.log(err);
       });
