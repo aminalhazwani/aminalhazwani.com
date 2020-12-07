@@ -1,6 +1,6 @@
 ---
 title: Tronko
-description: There’s no better algorithm than the suggestions from your own peers. Tronko is an app for movies and TV shows recommendations from the one source you trust – your friends.
+description: Designed an app for movie and TV show recommendations from the one source you trust – your friends.
 url: https://tronko.com/
 image: 
   name: tronko

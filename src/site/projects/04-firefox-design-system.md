@@ -1,6 +1,6 @@
 ---
 title: Firefox Design System
-description: Joined the Firefox Quantum task force that shipped the new Firefox in November 2017. Audited tested and documented the new Photon UI language in a design system that set the basis for future Firefox versions. Organized and supported programs bringing design and engineering closer together.
+description: Joined the task force that shipped the new Firefox in November 2017. Designed and scaled the Photon design language to Firefox web, iOS and Android products.
 image: 
   name: firefox-design-system
   alt: Screenshot of the Firefox Design System homepage
