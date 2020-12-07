@@ -20,9 +20,12 @@ layout: default
         </div>
       </div>
       <div class="float-left px-1 md:pl-2 md:pr-1 md:w-1/2">
-        <img src="images/{{ project.data.image.name }}.jpg" alt="{{ project.data.image.alt }}">
+        <img srcset="images/1x/{{ project.data.image.name }}.jpg,
+                     images/2x/{{ project.data.image.name }}.jpg 2x"
+             src="images/{{ project.data.image.name }}.jpg" 
+             alt="{{ project.data.image.alt }}">
       </div>
-    </section>
+    </section>  
   {% else %}
     {% if (loop.index/2) | round * 2 == loop.index %}
       <section class="flow-root {% if (loop.index+1) == loop.length %}mb-32{% else %}mb-8{% endif %} px-2">
@@ -43,7 +46,10 @@ layout: default
           </div>
         </div>
         <div class="float-left px-1 lg:w-1/2">
-          <img src="images/{{ project.data.image.name }}.jpg" alt="{{ project.data.image.alt }}">
+          <img srcset="images/1x/{{ project.data.image.name }}.jpg,
+                        images/2x/{{ project.data.image.name }}.jpg 2x"
+               src="images/{{ project.data.image.name }}.jpg" 
+               alt="{{ project.data.image.alt }}">
         </div>
       </div>
     {% if loop.last %}
