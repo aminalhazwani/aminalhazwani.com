@@ -1,6 +1,6 @@
 ---
 title: Design Ops at Accurat
-description: Running design operations for a 30+ group of data visualization designers, engineers and scientists. Guiding projects with novel design approaches that result in cross-team collaboration.
+description: Guiding a 30+ group of data visualization designers, engineers and scientists with user-centred thinking processes. Supporting the execution and roll out of all design.
 image: 
   name: accurat-design-ops
   alt: Screenshot of Accurat project for Google News Lab
