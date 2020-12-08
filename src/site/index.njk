@@ -22,14 +22,14 @@ layout: default
       </div>
       <div class="float-left px-1 md:pl-2 md:pr-1 md:w-1/2">
         {% if project.data.permalink %}
-          <a class="block overflow-hidden pb-{{ project.data.image.ratio }} relative" href="{{ project.url }}">
-            {% set class = "absolute h-full w-full object-cover" %}
-            {% include "blocks/image.njk" %}
+          <a class="block overflow-hidden {% include "utils/ratio.njk" %} relative" href="{{ project.url }}">
+            {% set classes = "absolute h-full w-full object-cover" %}
+            {% include "utils/image.njk" %}
           </a>
         {% else %}
-          <div class="overflow-hidden pb-{{ project.data.image.ratio }} relative">
-            {% set class = "absolute h-full w-full object-cover" %}
-            {% include "blocks/image.njk" %}
+          <div class="overflow-hidden {% include "utils/ratio.njk" %} relative">
+            {% set classes = "absolute h-full w-full object-cover" %}
+            {% include "utils/image.njk" %}
           </div>
         {% endif %}
       </div>
@@ -48,7 +48,7 @@ layout: default
       <div class="float-left px-1 lg:w-1/2">
         <div class="md:w-11/12">
           <h3 class="font-normal inline-block mb-4 text-base md:text-xl">
-            <a href="{{ project.data.url }}">
+            <a href="{{ project.url }}">
               <span class="mr-1 underline underline-offset-0.5 underline-thickness-0.25 md:underline-offset-0.75 md:underline-thickness-0.25 lg:underline-thickness-0.5">{{ project.data.title }}</span><span class="font-inter">↗</span>
             </a>
           </h3>
@@ -58,7 +58,10 @@ layout: default
         </div>
       </div>
       <div class="float-left px-1 lg:w-1/2">
-        {% include "blocks/image.njk" %}
+        <div class="overflow-hidden {% include "utils/ratio.njk" %} relative">
+          {% set classes = "absolute h-full w-full object-cover" %}
+          {% include "utils/image.njk" %}
+        </div>
       </div>
     </div>
     {% if (loop.index/2) | round * 2 != loop.index or loop.last %}
