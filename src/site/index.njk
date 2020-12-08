@@ -5,8 +5,8 @@ layout: default
 
 {% for project in collections.projects | reverse %}
   {% if project.data.layout %}
-    <section class="flow-root mb-32 px-3">
-      <div class="float-left px-1 md:pl-1 md:pr-2 md:w-1/2">
+    <section class="mb-32 px-3 md:flow-root">
+      <div class="px-1 md:pl-1 md:float-left md:pr-2 md:w-1/2">
         <div class="md:w-10/12 lg:w-4/5">
           <h2 class="font-normal group inline-block mb-8 text-xl md:text-2xl lg:text-3xl xl:text-4xl">
             {% if project.data.permalink %}
@@ -20,7 +20,7 @@ layout: default
           </p>
         </div>
       </div>
-      <div class="float-left px-1 md:pl-2 md:pr-1 md:w-1/2">
+      <div class="px-1 md:pl-2 md:float-left md:pr-1 md:w-1/2">
         {% if project.data.permalink %}
           <a class="block overflow-hidden {% include "utils/ratio.njk" %} relative" href="{{ project.url }}">
             {% set classes = "absolute h-full w-full object-cover" %}
@@ -40,12 +40,12 @@ layout: default
 {% for project in collections.projects | reverse %}
   {% if not project.data.layout %}
   {% if (loop.index/2) | round * 2 == loop.index %}
-    <section class="flow-root {% if (loop.index+1) == loop.length %} mb-32 {% else %} mb-8 {% endif %} px-2">
-      <div class="float-left mb-8 px-1 sm:mb-0 sm:w-1/2">
+    <section class="{% if (loop.index+1) == loop.length %} mb-32 {% else %} mb-8 {% endif %} px-2 sm:flow-root">
+      <div class="mb-8 px-1 sm:mb-0 sm:float-left sm:w-1/2">
   {% else %}
-      <div class="float-left px-1 sm:w-1/2">
+      <div class="px-1 sm:float-left sm:w-1/2">
   {% endif %}
-      <div class="float-left px-1 lg:w-1/2">
+      <div class="px-1 lg:w-1/2 lg:float-left">
         <div class="md:w-11/12">
           <h3 class="font-normal inline-block mb-4 text-base md:text-xl">
             <a href="{{ project.url }}">
@@ -57,7 +57,7 @@ layout: default
           </p>
         </div>
       </div>
-      <div class="float-left px-1 lg:w-1/2">
+      <div class="px-1 lg:w-1/2 lg:float-left">
         <div class="overflow-hidden {% include "utils/ratio.njk" %} relative">
           {% set classes = "absolute h-full w-full object-cover" %}
           {% include "utils/image.njk" %}
