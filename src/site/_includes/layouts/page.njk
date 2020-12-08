@@ -2,9 +2,28 @@
 layout: default
 ---
 
-<main class="px-4 mb-32">
-  <h2 class="font-normal mb-8 text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-    {{ title }}
-  </h2>
-  {{ content | safe }}
+<main>
+  <section class="flow-root mb-32 px-3">
+    <div class="float-left px-1 md:pl-1 md:pr-2 md:w-1/2">
+      <div class="md:w-10/12 lg:w-4/5">
+        <h2 class="font-normal mb-8 text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+          {{ title }}
+        </h2>
+      </div>
+    </div>
+    <div class="float-left px-1 md:pl-1 md:pr-2 md:w-1/2">
+      <div class="md:w-10/12 lg:w-4/5">
+        <p class="mb-4 lg:leading-snug lg:text-xl xl:text-2xl">
+          {{ introduction }}
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="flow-root mb-32 px-3">
+    <div class="float-right px-1 md:pl-1 md:pr-2 md:w-1/2">
+      <div class="mb-4 md:w-10/12 lg:w-4/5 lg:leading-snug lg:text-l xl:text-xl">
+        {{ content | safe }}
+      </div>
+    </div>
+  </section>
 </main>

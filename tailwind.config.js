@@ -12,17 +12,28 @@ module.exports = {
       "xl": "80rem",
       "2xl": "1536px",
     },
+    extend: {
+      spacing: {
+        "16/9": "56.25%",
+        "16/10": "62.5%",
+        "16/11": "68.75%",
+        "3/2": "66.66666667%",
+        "4/3": "75%",
+        "9/16": "177.77777778%",
+      }
+    },
   },
   variants: {
     extend: {
-      inset: ['group-hover'],
-      margin: ['group-hover'],
-      transitionProperty: ['group-hover'],
+      inset: ["group-hover"],
+      margin: ["group-hover"],
+      scale: ["hover"],
+      transitionProperty: ["group-hover"],
     },
   },
   plugins: [],
-  purge: process.env.NODE_ENV === 'production' ? {
+  purge: process.env.NODE_ENV === "production" ? {
     enabled: true,
-    content: ['src/**/*.njk'],
+    content: ["src/**/*.njk"],
   } : {}
 };
