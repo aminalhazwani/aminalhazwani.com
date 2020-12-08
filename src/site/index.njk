@@ -22,13 +22,14 @@ layout: default
       </div>
       <div class="float-left px-1 md:pl-2 md:pr-1 md:w-1/2">
         {% if project.data.permalink %}
-          <a class="block overflow-hidden pb-{{ project.data.image.ratio }} relative" href="{{ project.url }}">
-            {% set class = "absolute h-full w-full object-cover" %}
+          {% set ratio = "pb-" + project.data.image.ratio %}
+          <a class="block overflow-hidden {{ ratio }} relative" href="{{ project.url }}">
+            {% set classes = "absolute h-full w-full object-cover" %}
             {% include "blocks/image.njk" %}
           </a>
         {% else %}
-          <div class="overflow-hidden pb-{{ project.data.image.ratio }} relative">
-            {% set class = "absolute h-full w-full object-cover" %}
+          <div class="overflow-hidden {{ ratio }} relative">
+            {% set classes = "absolute h-full w-full object-cover" %}
             {% include "blocks/image.njk" %}
           </div>
         {% endif %}
@@ -58,7 +59,10 @@ layout: default
         </div>
       </div>
       <div class="float-left px-1 lg:w-1/2">
-        {% include "blocks/image.njk" %}
+        <div class="overflow-hidden {{ ratio }} relative">
+          {% set classes = "absolute h-full w-full object-cover" %}
+          {% include "blocks/image.njk" %}
+        </div>
       </div>
     </div>
     {% if (loop.index/2) | round * 2 != loop.index or loop.last %}
