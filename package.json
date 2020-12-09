@@ -10,7 +10,6 @@
     "build:site": "NODE_ENV=production eleventy",
     "clean": "rm -rf ./dist",
     "dev": "npm-run-all clean webpack:assets dev:images --parallel dev:*",
-    "dev:assets": "yarn webpack:assets --watch",
     "dev:images": "node plugins/sharp.js",
     "dev:site": "NODE_ENV=development eleventy --serve",
     "webpack:assets": "NODE_ENV=development webpack --mode=development"
