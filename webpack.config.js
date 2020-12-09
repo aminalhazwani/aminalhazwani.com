@@ -38,6 +38,8 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({ filename: `${baseFilename}.css` }),
+    new MiniCssExtractPlugin({ filename: `${baseFilename}.woff` }),
+    new MiniCssExtractPlugin({ filename: `${baseFilename}.woff2` }),
     new ManifestPlugin({ publicPath: "/static/" }),
   ],
 };
