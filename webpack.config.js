@@ -4,17 +4,18 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const dev = process.env.NODE_ENV === "development";
 
-const baseFilename = dev ? "index" : "index.[contenthash]";
+const baseFilename = dev ? "index" : "[contenthash]";
 
 module.exports = {
   mode: dev ? "development" : "production",
   entry: [
     path.resolve(__dirname, "src", "css", "index.css"),
-    path.resolve(__dirname, "src", "fonts", "inter-regular.woff"),
-    path.resolve(__dirname, "src", "fonts", "inter-regular.woff2"),
+    path.resolve(__dirname, "src", "fonts", "inter.woff"),
+    path.resolve(__dirname, "src", "fonts", "inter.woff2"),
   ],
   output: {
     path: path.resolve(__dirname, "dist", "static"),
+    filename: `${baseFilename}.js`,
   },
   module: {
     rules: [
@@ -27,7 +28,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        test: /\.(woff|woff2)$/i,
         use: [
           {
             loader: 'file-loader',
@@ -38,8 +39,6 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({ filename: `${baseFilename}.css` }),
-    new MiniCssExtractPlugin({ filename: `${baseFilename}.woff` }),
-    new MiniCssExtractPlugin({ filename: `${baseFilename}.woff2` }),
     new ManifestPlugin({ publicPath: "/static/" }),
   ],
 };
