@@ -24,12 +24,6 @@ module.exports = {
     },
   },
   variants: {
-    extend: {
-      inset: ["group-hover"],
-      margin: ["group-hover"],
-      scale: ["hover"],
-      transitionProperty: ["group-hover"],
-    },
   },
   plugins: [],
   purge: process.env.NODE_ENV === "production" ? {
