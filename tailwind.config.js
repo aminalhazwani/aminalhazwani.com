@@ -24,6 +24,7 @@ module.exports = {
     },
   },
   variants: {
+    translate: ["group-hover"],
   },
   plugins: [],
   purge: process.env.NODE_ENV === "production" ? {
