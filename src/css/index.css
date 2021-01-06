@@ -38,3 +38,7 @@
 .writing-mode-sideways-lr {
   writing-mode: sideways-lr;
 }
+
+.writing-mode-sideways-rl {
+  writing-mode: sideways-rl;
+}
