@@ -13,32 +13,12 @@
 
 @layer utilities {
   @variants responsive {
-    .underline-offset-0\.5 {
-      text-underline-offset: 0.125rem;
+    .writing-mode-sideways-lr {
+      writing-mode: sideways-lr;
     }
-
-    .underline-offset-0\.75 {
-      text-underline-offset: 0.1875rem;
-    }
-
-    .underline-offset-1 {
-      text-underline-offset: 0.25rem;
-    }
-
-    .underline-thickness-0\.25 {
-      text-decoration-thickness: 0.0625rem;
-    }
-
-    .underline-thickness-0\.5 {
-      text-decoration-thickness: 0.125rem;
+    
+    .writing-mode-sideways-rl {
+      writing-mode: sideways-rl;
     }
   }
-}
-
-.writing-mode-sideways-lr {
-  writing-mode: sideways-lr;
-}
-
-.writing-mode-sideways-rl {
-  writing-mode: sideways-rl;
 }
