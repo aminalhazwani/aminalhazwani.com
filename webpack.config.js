@@ -12,6 +12,7 @@ module.exports = {
     path.resolve(__dirname, "src", "css", "index.css"),
     path.resolve(__dirname, "src", "fonts", "inter.woff"),
     path.resolve(__dirname, "src", "fonts", "inter.woff2"),
+    path.resolve(__dirname, "src", "fonts", "styrene.woff2"),
   ],
   output: {
     path: path.resolve(__dirname, "dist", "static"),

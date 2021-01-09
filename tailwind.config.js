@@ -2,7 +2,7 @@ module.exports = {
   darkMode: "media",
   theme: {
     fontFamily: {
-      "sans": ["Helvetica Neue", "Arial", "sans-serif"],
+      "sans": ["Styrene","Helvetica Neue", "Arial", "sans-serif"],
       "inter": ["Inter", "Arial", "sans-serif"],
     },
     screens: {
