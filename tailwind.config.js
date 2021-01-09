@@ -1,9 +1,17 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   darkMode: "media",
   theme: {
     fontFamily: {
       "sans": ["Styrene","Helvetica Neue", "Arial", "sans-serif"],
       "inter": ["Inter", "Arial", "sans-serif"],
+    },
+    colors: {
+      black: colors.black,
+      gray: colors.trueGray,
+      white: colors.white,
+      yellow: colors.yellow,
     },
     screens: {
       "sm": "375px",
@@ -45,10 +53,11 @@ module.exports = {
       },
       zIndex: {
         '-1': '-1',
-       }
+      },
     },
   },
   variants: {
+    fontSmoothing: ['dark'],
     translate: ["group-hover"],
   },
   plugins: [],
