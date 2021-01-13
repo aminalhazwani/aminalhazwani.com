@@ -1,0 +1,10 @@
+<picture class="{{ classes }}">
+  <img srcset="images/1x/{{ name }}.jpg 500w,
+               images/1.5x/{{ name }}.jpg 1000w,
+               images/2x/{{ name }}.jpg 1000w,
+               images/3x/{{ name }}.jpg 2000w"
+       sizes="(min-width: 80rem) 50vw,
+              100vw"
+       src="images/1x/{{ name }}.jpg"
+       alt="{{ description }}">
+</picture>
