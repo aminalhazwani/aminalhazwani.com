@@ -29,4 +29,8 @@
       writing-mode: sideways-rl;
     }
   }
+
+  picture {
+    display: block;
+  }
 }

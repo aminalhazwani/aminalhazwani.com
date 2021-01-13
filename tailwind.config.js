@@ -14,7 +14,7 @@ module.exports = {
       yellow: colors.yellow,
     },
     screens: {
-      "sm": "375px",
+      "sm": "24rem",
       "md": "36rem",
       "lg": "60rem",
       "xl": "80rem",

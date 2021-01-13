@@ -6,25 +6,45 @@ const sharp = require("sharp");
 const resizes = [
   {
     src: "./src/images/*.jpg",
-    dist: "./dist/images/2x",
+    dist: "./dist/images/3x",
     percent: 100,
   },
   {
     src: "./src/images/*.jpg",
-    dist: "./dist/images/1.5x",
+    dist: "./dist/images/2x",
     percent: 75,
   },
   {
     src: "./src/images/*.jpg",
-    dist: "./dist/images/1x",
+    dist: "./dist/images/1.5x",
     percent: 50,
+  },
+  {
+    src: "./src/images/*.jpg",
+    dist: "./dist/images/1x",
+    percent: 25,
   },
 ];
 
 const formats = [
   {
-    src: "./src/images/*.jpg",
-    dist: "./dist/images/webp",
+    src: "./dist/images/3x/*.jpg",
+    dist: "./dist/images/3x",
+    format: "webp",
+  },
+  {
+    src: "./dist/images/2x/*.jpg",
+    dist: "./dist/images/2x",
+    format: "webp",
+  },
+  {
+    src: "./dist/images/1.5x/*.jpg",
+    dist: "./dist/images/1.5x",
+    format: "webp",
+  },
+  {
+    src: "./dist/images/1x/*.jpg",
+    dist: "./dist/images/1x",
     format: "webp",
   },
 ];

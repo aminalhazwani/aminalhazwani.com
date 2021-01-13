@@ -15,7 +15,10 @@
       <p class="mb-4">
         Defined workflows, built and shipped tools enabling a team of 40+ people to work more efficiently and invest more time in research and testing.
       </p>
-      <img class="mb-4 lg:mb-0" src="images/2x/firefox-design-system-icons.jpg" alt="#">
+      {% set classes = "mb-4 lg:mb-0" %}
+      {% set name = "firefox-design-system-icons" %}
+      {% set description = "#" %}
+      {% include "utils/image.njk" %}
     </div>
 
     <div class="row-start-2 row-span-1 col-start-18 col-span-7">
@@ -24,16 +27,20 @@
       </p>
     </div>
     <div class="row-start-2 row-span-3 col-start-7 col-span-11">
-      <img class="mb-4 lg:mb-0" src="images/2x/firefox-design-system-components.jpg" alt="#">
+      {% set classes = "mb-4 lg:mb-0" %}
+      {% set name = "firefox-design-system-components" %}
+      {% set description = "#" %}
+      {% include "utils/image.njk" %}
     </div>
 
     <div class="row-start-5 row-span-3 col-start-1 col-span-10 lg:flex">
       <p class="mb-4 lg:mb-0 lg:mr-4 lg:writing-mode-sideways-rl">
         Launched a company-wide&nbsp;<br class="hidden lg:block xl:hidden">design tokens&nbsp;<br class="xl:block">initiative&nbsp;<br class="hidden lg:block xl:hidden">to promote shared design&nbsp;<br class="hidden lg:block xl:hidden">decisions&nbsp;<br class="hidden xl:block">across 10+&nbsp;<br class="hidden lg:block xl:hidden">products and 5 OS platforms.
       </p>
-      <div class="mb-4 lg:mb-0">
-        <img src="images/2x/firefox-design-system-tokens.jpg" alt="#">
-      </div>
+      {% set classes = "mb-4 lg:mb-0" %}
+      {% set name = "firefox-design-system-tokens" %}
+      {% set description = "#" %}
+      {% include "utils/image.njk" %}
     </div>
 
 
@@ -42,9 +49,10 @@
       <p class="mb-4 lg:mb-0 lg:w-4/5">
         Everything was documented in a website that showcased the state of the art: colors, typography, icons, components, patterns, copy and resources.
       </p>
-      <div class="lg:mb-4">
-        <img src="images/2x/firefox-design-system-website.jpg" alt="#">
-      </div>
+      {% set classes = "lg:mb-4" %}
+      {% set name = "firefox-design-system-website" %}
+      {% set description = "#" %}
+      {% include "utils/image.njk" %}
     </div>
 
   </div>
