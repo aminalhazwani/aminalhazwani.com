@@ -14,11 +14,11 @@ module.exports = {
       yellow: colors.yellow,
     },
     screens: {
-      "sm": "24rem",
-      "md": "36rem",
-      "lg": "60rem",
-      "xl": "80rem",
-      "2xl": "1536px",
+      "sm": "24rem",  // 384px
+      "md": "36rem",  // 576px
+      "lg": "60rem",  // 960px
+      "xl": "80rem",  // 1280px
+      "2xl": "96rem", // 1536px
     },
     extend: {
       gridTemplateColumns: {
