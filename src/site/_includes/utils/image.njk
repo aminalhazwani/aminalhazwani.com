@@ -1,10 +1,9 @@
 <picture class="{{ classes }}">
-  <img srcset="images/1x/{{ name }}.jpg 500w,
-               images/1.5x/{{ name }}.jpg 1000w,
-               images/2x/{{ name }}.jpg 1000w,
-               images/3x/{{ name }}.jpg 2000w"
-       sizes="(min-width: 80rem) 50vw,
-              100vw"
+  <source type="image/webp"
+          srcset="images/1x/{{ name }}.webp, images/2x/{{ name }}.webp 2x">
+  <img sizes="(min-width: 80rem) 50vw, 100vw"
+       srcset="images/1x/{{ name }}.jpg 1000w,
+               images/2x/{{ name }}.jpg 2000w"
        src="images/1x/{{ name }}.jpg"
        alt="{{ description }}">
 </picture>
