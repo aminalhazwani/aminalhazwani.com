@@ -4,7 +4,7 @@ module.exports = {
   darkMode: "media",
   theme: {
     fontFamily: {
-      "sans": ["Styrene","Helvetica Neue", "Arial", "sans-serif"],
+      "sans": ["Styrene", "Helvetica Neue", "Arial", "sans-serif"],
       "inter": ["Inter", "Arial", "sans-serif"],
     },
     colors: {
@@ -42,6 +42,9 @@ module.exports = {
         "21": "21",
         "22": "22",
         "23": "23",
+      },
+      gridRowStart: {
+        "10": "10",
       },
       spacing: {
         "16/9": "56.25%",
