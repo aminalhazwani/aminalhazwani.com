@@ -33,4 +33,12 @@
   picture {
     display: block;
   }
+
+  .underline-2 {
+    text-decoration-thickness: 2px;
+  }
+
+  .underline-offset-2 {
+    text-underline-offset: 2px;
+  }
 }
