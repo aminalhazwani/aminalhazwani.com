@@ -12,6 +12,8 @@ module.exports = {
       gray: colors.trueGray,
       white: colors.white,
       yellow: colors.yellow,
+      "edge-blue": "#0063e1",
+      "selective-yellow": "#ffb200",
     },
     screens: {
       "sm": "24rem",  // 384px
