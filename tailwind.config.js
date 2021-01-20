@@ -4,14 +4,14 @@ module.exports = {
   darkMode: "media",
   theme: {
     fontFamily: {
-      "sans": ["Styrene", "Helvetica Neue", "Arial", "sans-serif"],
-      "inter": ["Inter", "Arial", "sans-serif"],
+      "sans": ["amrofir", "Helvetica Neue", "Arial", "sans-serif"],
     },
     colors: {
       black: colors.black,
       gray: colors.trueGray,
       white: colors.white,
       yellow: colors.yellow,
+      blue: colors.blue,
       "edge-blue": "#0063e1",
       "selective-yellow": "#ffb200",
     },
@@ -47,6 +47,9 @@ module.exports = {
       },
       gridRowStart: {
         "10": "10",
+      },
+      lineHeight: {
+        'extra': '0.9',
       },
       spacing: {
         "16/9": "56.25%",
