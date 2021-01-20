@@ -2,17 +2,10 @@
 
   <div class="lg:grid grid-cols-24 gap-4 px-4 md:px-8 lg:px-4">
 
-    <div class="row-start-1 row-span-1 col-start-1 col-span-12 mb-4">
-      <h2 class="text-3xl md:text-4xl xl:text-5xl">Firefox Design System</h2>
-    </div>
-    <div class="row-start-1 row-span-1 col-start-13 col-span-12 mb-16 xl:mb-24">
-      <p class="text-xl xl:text-2xl mb-8">
-        Joined the task force that shipped the new Firefox in November 2017. Designed and scaled the Photon visual language to web, desktop, iOS and Android products.
-      </p>
-      <p class="xl:text-lg">
-        Explored how the Firefox experience spanned different user types, situations and devices. Presented the vision and design rationale in a compelling, convincing manner to the wider team.
-      </p>
-    </div>
+    {% set title = "Firefox Design System" %}
+    {% set summary = "Joined the task force that shipped the new Firefox in November 2017. Designed and scaled the Photon visual language to web, desktop, iOS and Android products." %}
+    {% set description = "Explored how the Firefox experience spanned different user types, situations and devices. Presented the vision and design rationale in a compelling, convincing manner to the wider team." %}
+    {% include "utils/header.njk" %}
 
     <div class="row-start-2 row-span-1 col-start-1 col-span-6">
       <p class="mb-4">

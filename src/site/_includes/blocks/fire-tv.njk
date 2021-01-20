@@ -2,17 +2,10 @@
 
   <div class="lg:grid grid-cols-24 gap-4 px-4 md:px-8 lg:px-4">
 
-    <div class="row-start-1 row-span-1 col-start-1 col-span-12 mb-4">
-      <h2 class="text-3xl md:text-4xl xl:text-5xl">Firefox for Fire TV</h2>
-    </div>
-    <div class="row-start-1 row-span-1 col-start-13 col-span-12 mb-16 xl:mb-24">
-      <h3 class="text-xl xl:text-2xl mb-8">
-        Led a major redesign that transformed a TV browser originally developed in a 5-day sprint into a native remote-controlled TV app serving up to 8 million users.
-      </h3>
-      <p class="xl:text-lg">
-        Brought clarity and structure to the existing system. Transformed open-ended opportunities into actionable next steps while honing the design execution through user feedback.
-      </p>
-    </div>
+    {% set title = "Firefox for Fire TV" %}
+    {% set summary = "Led a major redesign that transformed a TV browser originally developed in a 5-day sprint into a native remote-controlled TV app serving up to 8 million users." %}
+    {% set description = "Brought clarity and structure to the existing system. Transformed open-ended opportunities into actionable next steps while honing the design execution through user feedback." %}
+    {% include "utils/header.njk" %}
 
     <div class="row-start-2 row-span-2 col-start-1 col-span-6">
       <div class="lg:flex lg:flex-wrap-reverse">

@@ -1,15 +1,10 @@
 <section class="mb-32 xl:mb-48">
 
-  <div class="lg:grid grid-cols-24 gap-4 pt-4 px-4 md:pt-8 md:px-8 lg:pt-4 lg:px-4">
+  <article class="lg:grid grid-cols-24 gap-4 pt-4 px-4 md:pt-8 md:px-8 lg:pt-4 lg:px-4">
 
-    <div class="row-start-1 row-span-1 col-start-1 col-span-12 mb-4">
-      <h2 class="text-3xl md:text-4xl xl:text-5xl">Design Ops and more&nbsp;<br class="hidden lg:block">at Accurat</h2>
-    </div>
-    <div class="row-start-1 row-span-1 col-start-13 col-span-12 mb-16 xl:mb-24">
-      <h3 class="text-xl xl:text-2xl">
-        Leading a 30+ group of data visualization designers, engineers and scientists on multiple projects. Supporting the execution and roll out of all design.
-      </h3>
-    </div>
+    {% set title = "Design Ops and more at Accurat" %}
+    {% set summary = "Leading a 30+ group of data visualization designers, engineers and scientists on multiple projects. Supporting the execution and roll out of all design." %}
+    {% include "utils/header.njk" %}
 
     <div class="row-start-2 row-span-1 col-start-1 col-span-8">
       <div class="flex mb-4 lg:mb-0">
@@ -59,6 +54,6 @@
       {% include "utils/image.njk" %}
     </div>
 
-  </div>
+  </article>
 
 </section>
