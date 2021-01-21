@@ -1,18 +1,18 @@
 <div class="row-start-1 row-span-1 col-start-1 col-span-12 mb-4 lg:mb-24">
   {% if title %}
-    <h2 class="mt-2 tracking-tight text-4xl leading-none sm:text-5xl sm:leading-none md:text-7xl md:leading-extra md:mt-3 xl:text-8xl xl:leading-extra">
-      {{ title }}
+    <h2 class="tracking-tight text-4xl leading-none sm:-mt-1 sm:-ml-1 sm:text-5xl sm:leading-none md:text-7xl md:leading-extra xl:text-8xl xl:leading-extra">
+      {{ title | safe }}
     </h2>
   {% endif %}
 </div>
 <div class="row-start-1 row-span-1 col-start-13 col-span-12 mb-16 lg:mb-24">
   {% if summary %}
-    <p class="text-xl {% if description %}mb-8{% endif %} md:text-2xl md:leading-tight xl:text-3xl xl:leading-tighter xl:mt-2">
+    <p class="text-xl leading-tight {% if description %}mb-8{% endif %} md:text-2xl md:leading-tight xl:text-3xl xl:leading-tighter">
       {{ summary }}
     </p>
   {% endif %}
   {% if description %}
-    <p class="xl:text-lg xl:leading-tight">
+    <p class="md:text-lg md:leading-snug xl:text-xl xl:leading-snug">
       {{ description }}
     </p>
   {% endif %}
