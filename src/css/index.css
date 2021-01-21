@@ -12,13 +12,9 @@
 @tailwind utilities;
 
 @layer utilities {
-  @variants responsive {
-    .writing-mode-sideways-lr {
-      writing-mode: sideways-lr;
-    }
-    
-    .writing-mode-sideways-rl {
-      writing-mode: sideways-rl;
+  @variants responsive {    
+    .writing-mode-rl {
+      writing-mode: vertical-rl;
     }
   }
 
@@ -26,11 +22,11 @@
     display: block;
   }
 
-  .underline-2 {
-    text-decoration-thickness: 2px;
+  .underline-1 {
+    text-decoration-thickness: 1px;
   }
 
-  .underline-offset-2 {
-    text-underline-offset: 2px;
+  .underline-offset-3 {
+    text-underline-offset: 3px;
   }
 }
