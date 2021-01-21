@@ -11,6 +11,11 @@ const jpg = [
   },
   {
     src: "./src/images/*.jpg",
+    dist: "./dist/images/1.5x",
+    percent: 75,
+  },
+  {
+    src: "./src/images/*.jpg",
     dist: "./dist/images/1x",
     percent: 50,
   },
@@ -21,6 +26,12 @@ const webp = [
     src: "./src/images/*.jpg",
     dist: "./dist/images/2x",
     percent: 100,
+    format: "webp",
+  },
+  {
+    src: "./src/images/*.jpg",
+    dist: "./dist/images/1.5x",
+    percent: 75,
     format: "webp",
   },
   {
