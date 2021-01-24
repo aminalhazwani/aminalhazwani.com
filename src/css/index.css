@@ -12,7 +12,11 @@
 @tailwind utilities;
 
 @layer utilities {
-  @variants responsive {    
+  @variants responsive {
+    .inline-table {
+      display: inline-table;
+    }
+
     .writing-mode-rl {
       writing-mode: vertical-rl;
     }
@@ -22,11 +26,15 @@
     display: block;
   }
 
-  .underline-1 {
-    text-decoration-thickness: 1px;
+  .underline-2 {
+    text-decoration-thickness: 2px;
   }
 
-  .underline-offset-3 {
-    text-underline-offset: 3px;
+  .underline-offset-2 {
+    text-underline-offset: 2px;
+  }
+
+  .font-feature-aalt {
+    font-feature-settings: 'aalt' on;
   }
 }

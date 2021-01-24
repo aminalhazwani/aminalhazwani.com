@@ -12,13 +12,13 @@ module.exports = {
       white: colors.white,
       yellow: colors.yellow,
       blue: colors.blue,
-      "edge-blue": "#0063e1",
+      "edge-blue": "#04f",
       "selective-yellow": "#ffb200",
     },
     screens: {
       "sm": "24rem",  // 384px
       "md": "36rem",  // 576px
-      "lg": "60rem",  // 960px
+      "lg": "64rem",  // 1024px
       "xl": "80rem",  // 1280px
       "2xl": "96rem", // 1536px
     },
@@ -50,6 +50,7 @@ module.exports = {
       },
       lineHeight: {
         'extra': '0.9',
+        'tighter': '1.125',
       },
       spacing: {
         "16/9": "56.25%",
