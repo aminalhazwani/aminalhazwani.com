@@ -3,10 +3,23 @@ title: Amin Al Hazwani
 layout: default
 ---
 
-<main class="text-gray-700 bg-gray-200 dark:text-gray-300 dark:bg-gray-800 max-w-screen-xl">
-  {% include "blocks/design-ops.njk" %}
-  {% include "blocks/echo-show.njk" %}
-  {% include "blocks/fire-tv.njk" %}
-  {% include "blocks/design-system.njk" %}
-  {% include "blocks/studio.njk" %}
-</main>
+<div class="flex flex-col xl:flex-row">
+  <div class="flex-auto">
+    <header class="pt-4 px-4 sm:pt-4 sm:px-8 mb-16 md:pt-8 md:px-16 md:mb-32 lg:pt-4 lg:px-12 xl:mb-48 lg:text-lg lg:leading-tight">
+      {% include "blocks/header.njk" %}
+    </header>
+    <main class="text-gray-700 bg-gray-200 dark:text-gray-300 dark:bg-gray-800">
+      {% include "blocks/design-ops.njk" %}
+      {% include "blocks/echo-show.njk" %}
+      {% include "blocks/fire-tv.njk" %}
+      {% include "blocks/design-system.njk" %}
+      {% include "blocks/studio.njk" %}
+    </main>
+    <footer>
+      {% include "blocks/footer.njk" %}
+    </footer>
+  </div>
+  <aside class="flex-none">
+    {% include "blocks/aside.njk" %}
+  </aside>
+</div>
