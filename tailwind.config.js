@@ -4,7 +4,8 @@ module.exports = {
   darkMode: "media",
   theme: {
     fontFamily: {
-      "sans": ["amrofir", "Helvetica Neue", "Arial", "sans-serif"],
+      "sans": ["aldo", "Helvetica Neue", "Arial", "sans-serif"],
+      "inter": ["inter", "Helvetica Neue", "Arial", "sans-serif"],
     },
     colors: {
       black: colors.black,
