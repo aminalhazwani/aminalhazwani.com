@@ -1,0 +1,57 @@
+<section class="mb-32 xl:mb-48">
+
+  <div class="lg:grid grid-cols-24 gap-4 px-4 sm:px-8 md:px-16 lg:px-12">
+
+    {% set title = "Firefox for Fire TV" %}
+    {% set summary = "I led a major redesign that transformed a TV browser originally developed in a 5-day sprint into a native remote-controlled TV app serving up to 8 million users." %}
+    {% set description = "I brought clarity and structure to the existing system. We transformed open-ended opportunities into actionable next steps while honing the design execution through user feedback." %}
+    {% include "utils/header.njk" %}
+
+    <div class="row-start-5 row-span-3 col-start-9 col-span-16 lg:flex lg:flex-row-reverse">
+      <p class="mb-4 lg:mb-0 lg:ml-4 lg:writing-mode-rl">
+        Favored voice interfaces accessible with the TV&nbsp;<br class="hidden lg:block">controller when it was required to input text.
+      </p>
+      {% set classes = "mb-4 lg:mb-0" %}
+      {% set name = "firefox-fire-tv-device" %}
+      {% set description = "Firefox address bar overlay open and focused" %}
+      {% include "utils/image.njk" %}
+    </div>
+
+    <div class="row-start-2 row-span-2 col-start-1 col-span-6">
+      <div class="lg:flex lg:flex-wrap-reverse">
+        <p class="mb-4 lg:mb-0 lg:flex-shrink-0 w-full">
+          Just-in-time suggestions let viewers discover hidden features with their TV controller.
+        </p>
+        {% set classes = "mb-4 lg:flex-shrink-0 w-full" %}
+        {% set name = "firefox-fire-tv-helpers" %}
+        {% set description = "Helper text displayed above a channel row" %}
+        {% include "utils/image.njk" %}
+      </div>
+    </div>
+
+    <div class="row-start-5 row-span-1 col-start-1 col-span-8">
+      <p class="mb-4 lg:mb-0">
+        Limited the amount of information and adapted Firefox for a 10-foot interface that enabled watchers to read the text at a distance.
+      </p>
+    </div>
+    <div class="row-start-6 row-span-3 col-start-1 col-span-8">
+      {% set classes = "mb-4 lg:mb-0" %}
+      {% set name = "firefox-fire-tv-settings" %}
+      {% set description = "Settings screen with Pocket recommendation toggle disabled" %}
+      {% include "utils/image.njk" %}
+    </div>
+
+    <div class="row-start-2 row-span-1 col-start-17 col-span-8">
+      <p class="mb-4 lg:mb-0">
+        Always in focus elements enabled users to know what to do and where they were. Vertical and horizontal axes reduced the number of steps required to perform an action and discover content.
+      </p>
+    </div>
+    <div class="row-start-2 row-span-3 col-start-7 col-span-10">
+      {% set classes = "mb-0" %}
+      {% set name = "firefox-fire-tv-homescreen" %}
+      {% set description = "Firefox homescreen with Pocket recommendation row focused" %}
+      {% include "utils/image.njk" %}
+    </div>
+
+  </div>
+</section>

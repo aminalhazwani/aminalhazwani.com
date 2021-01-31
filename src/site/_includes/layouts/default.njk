@@ -1,49 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title or metadata.title }}</title>
-    <meta name="description" content="{{ description or metadata.description.short }}">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="preload" href="{% static 'inter.woff2' %}" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="{% static 'main.css' %}">
-    <link rel="canonical" href="{{ metadata.url }}">
-    <link rel="preconnect" href="https://d33wubrfki0l68.cloudfront.net">
-    <link rel="dns-prefetch" href="https://d33wubrfki0l68.cloudfront.net">
-  </head>
-  <body class="bg-gray-100 font-sans leading-none m-auto max-w-screen-2xl text-black dark:bg-black dark:text-white">
-    <header id="index" class="flex mb-32 px-4 pt-4 lg:text-xl xl:text-2xl">
-      <h1 class="flex-grow group leading-none">
-        <a href="/">Index</a><span class="font-inter inline-block opacity-0 transform translate-x-3 transition ease-in-out duration-200 group-hover:opacity-100 group-hover:translate-x-2">←</span>
-      </h1>
-      <p class="group leading-none"><span class="font-inter inline-block mr-1 opacity-0 transform -translate-y-2 transition ease-in-out duration-200 group-hover:opacity-100 group-hover:translate-y-0">↓</span><a href="#info">Info</a></p>
-    </header>
+  {% include "blocks/head.njk" %}
+  <body class="font-sans leading-tight bg-black md:text-lg md:leading-tight lg:text-base lg:leading-tight xl:text-lg xl:leading-tight 2xl:max-w-screen-2xl">
     {{ content | safe }}
-    <footer id="info" class="px-4">
-      <p class="leading-tight mb-32 text-2xl md:tracking-tight md:text-3xl lg:text-7xl lg:leading-none">
-        {{ metadata.description.long }}
-      </p>
-      <ul class="md:flex">
-        <li class="mb-4 md:mr-8">
-          <a class="lg:text-xl xl:text-2xl" href="https://twitter.com/aminalhazwani">
-            Twitter<span class="font-inter ml-1">↗</span>
-          </a>
-        </li>
-        <li class="mb-4 md:mr-8">
-          <a class="lg:text-xl xl:text-2xl" href="https://github.com/aminalhazwani/">
-            GitHub<span class="font-inter ml-1">↗</span>
-          </a>
-        </li>
-        <li class="mb-4 md:flex-grow">
-          <div class="flex lg:text-xl xl:text-2xl">
-            <a class="flex-grow" href="https://www.linkedin.com/in/aminalhazwani/">
-              LinkedIn<span class="font-inter ml-1">↗</span>
-            </a>
-            <span class="font-inter mr-1">↑</span><a href="#index">Top</a>
-          </div>
-        </li>
-      </ul>
-    </footer>
   </body>
 </html>

@@ -1,10 +1,19 @@
 @font-face {
-  font-family: "Inter";
+  font-family: "aldo";
+  src: url("../fonts/aldo.woff2") format("woff2"),
+       url("../fonts/aldo.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "inter";
   src: url("../fonts/inter.woff2") format("woff2"),
        url("../fonts/inter.woff") format("woff");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  font-stretch: normal;
 }
 
 @tailwind base;
@@ -13,24 +22,28 @@
 
 @layer utilities {
   @variants responsive {
-    .underline-offset-0\.5 {
-      text-underline-offset: 0.125rem;
+    .inline-table {
+      display: inline-table;
     }
 
-    .underline-offset-0\.75 {
-      text-underline-offset: 0.1875rem;
+    .writing-mode-rl {
+      writing-mode: vertical-rl;
     }
+  }
 
-    .underline-offset-1 {
-      text-underline-offset: 0.25rem;
-    }
+  picture {
+    display: block;
+  }
 
-    .underline-thickness-0\.25 {
-      text-decoration-thickness: 0.0625rem;
-    }
+  .underline-1 {
+    text-decoration-thickness: 1px;
+  }
 
-    .underline-thickness-0\.5 {
-      text-decoration-thickness: 0.125rem;
-    }
+  .underline-offset-2 {
+    text-underline-offset: 2px;
+  }
+
+  .font-feature-aalt {
+    font-feature-settings: 'aalt' on;
   }
 }
