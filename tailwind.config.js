@@ -9,7 +9,7 @@ module.exports = {
     },
     colors: {
       black: colors.black,
-      gray: colors.trueGray,
+      gray: colors.neutral,
       white: colors.white,
       yellow: colors.yellow,
       blue: colors.blue,
@@ -60,8 +60,7 @@ module.exports = {
     translate: ["group-hover"],
   },
   plugins: [],
-  purge: process.env.NODE_ENV === "production" ? {
-    enabled: true,
-    content: ["src/**/*.njk"],
-  } : {}
+  content: [
+    "src/**/*.njk",
+  ],
 };
