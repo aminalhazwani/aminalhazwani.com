@@ -3,10 +3,6 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   darkMode: "media",
   theme: {
-    fontFamily: {
-      "sans": ["aldo", "Helvetica Neue", "Arial", "sans-serif"],
-      "inter": ["inter", "Helvetica Neue", "Arial", "sans-serif"],
-    },
     colors: {
       black: colors.black,
       gray: colors.neutral,
